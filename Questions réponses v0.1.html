@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Q&A Revisions</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+    }
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .question-box {
+      border: 1px solid #ccc;
+      padding: 20px;
+      margin-bottom: 10px;
+    }
+    .question-text {
+
+    }
+    .answer-box {
+      display: none; /* Answer is hidden by default */
+      margin-top: 10px;
+      padding: 10px;
+      background: #f1f1f1;
+    }
+    button {
+      margin-top: 10px;
+      padding: 10px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Q&A Revisions</h1>
+    <div id="qa-container">
+      <!-- Random Question and Answer will be dynamically added here -->
+    </div>
+    <button id="add-btn">+</button>
+    <input type="file" id="file-input" accept="application/json" />
+    <button id="next-btn" style="margin-top: 10px;">Next Question</button>
+  </div>
+
+  <script>
+    const container = document.getElementById('qa-container');
+    let qaPairs = []; 
+
+    // Function to parse HTML tags in questions and answers
+    function parseHTML(str) {
+      return str.replace(/<b>(.*?)<\/b>/g, '<strong>$1</strong>')
+                .replace(/<i>(.*?)<\/i>/g, '<em>$1</em>')
+                .replace(/<u>(.*?)<\/u>/g, '<u>$1</u>');
+    }
+
+    function renderRandomQuestion() {
+      container.innerHTML = '';
+      if (qaPairs.length === 0) return;
+
+      const index = Math.floor(Math.random() * qaPairs.length);
+      const { question, answer } = qaPairs[index];
+
+      const questionBox = document.createElement('div');
+      questionBox.classList.add('question-box');
+
+      const questionText = document.createElement('p');
+      questionText.classList.add('question-text');
+      questionText.innerHTML = parseHTML(question); // Parse HTML for question
+
+      const answerBox = document.createElement('div');
+      answerBox.classList.add('answer-box');
+      answerBox.innerHTML = parseHTML(answer); // Parse HTML for answer
+
+      const showAnswerBtn = document.createElement('button');
+      showAnswerBtn.textContent = 'Show Answer';
+      showAnswerBtn.addEventListener('click', () => {
+        answerBox.style.display = 'block'; 
+      });
+
+      questionBox.appendChild(questionText);
+      questionBox.appendChild(showAnswerBtn);
+      questionBox.appendChild(answerBox);
+      container.appendChild(questionBox);
+    }
+
+    document.getElementById('add-btn').addEventListener('click', () => {
+      const newQuestion = prompt('Enter a new question (use <b></b> for bold, <i></i> for italic, <u></u> for underline):');
+      const newAnswer = prompt('Enter its answer (use <b></b> for bold, <i></i> for italic, <u></u> for underline):');
+      if (newQuestion && newAnswer) {
+        qaPairs.push({ question: newQuestion, answer: newAnswer });
+        renderRandomQuestion();
+      }
+    });
+
+    document.getElementById('file-input').addEventListener('change', (event) => {
+      const file = event.target.files[0];
+      if (file) {
+        const reader = new FileReader();
+        reader.onload = (e) => {
+          try {
+            const data = JSON.parse(e.target.result);
+            qaPairs = data.qaPairs || []; 
+            renderRandomQuestion(); 
+          } catch (error) {
+            alert('Invalid JSON file');
+          }
+        };
+        reader.readAsText(file);
+      }
+    });
+
+    document.getElementById('next-btn').addEventListener('click', () => {
+      renderRandomQuestion();
+    });
+
+    renderRandomQuestion(); 
+  </script>
+</body>
+</html>
