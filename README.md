@@ -60,22 +60,7 @@ Un algorithme d'optimisation détermine les positions \( y_1, y_2, \dots, y_n \)
 
 #### 5.2 Partition de l’image
 
-L’image \( X \) est alors **découpée verticalement** en blocs :
-
-\[
-X = X_1 \cup X_2 \cup \cdots \cup X_n
-\]
-
-où :
-
-- chaque bloc \( X_i \) contient environ **13 lignes** de texte manuscrit,
-- les blocs sont **chevauchants** : chaque \( X_i \) recouvre **2 lignes** avec \( X_{i-1} \) et \( X_{i+1} \).
-
-Formellement, si \( L_i \) désigne l’ensemble des lignes contenues dans \( X_i \), alors :
-
-\[
-L_{i} \cap L_{i+1} = \quad \text{(2 lignes partagées)}
-\]
+L’image \( X \) est alors **découpée verticalement** en blocs.
 
 En fin de traitement si le dernier chunk d'une page contient trop peu de lignes (par exemple 1 ou 2 lignes isolées), il est fusionné avec le chunk précédent afin d'assurer la cohérence.
 
