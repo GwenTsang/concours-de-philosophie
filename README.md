@@ -1,6 +1,6 @@
 # Traitement automatisé des copies scannées
 
-L'objectif est de transcrire de manière fidèle des copies manuscrites scannées en fichiers texte.
+L'objectif est de transcrire de manière fidèle des copies manuscrites scannées en PDF en fichiers texte. Ces copies scannées sont des dissertations et des commentaires de philosophie.
 
 
 ## Étapes
@@ -53,7 +53,7 @@ Cependant, certaines écritures (notamment à l’encre bleue) produisent un con
 L'objectif est de diviser le corps $C(X)$ de chaque page en segments (chunks) gérables et se chevauchant, adaptés à l'OCR.
 
 
-* **Process** basé sur les coordonnées des lignes détectées (`y_coords`) à l'étape 5.1 :
+* Le process est basé sur les coordonnées des lignes détectées (`y_coords`) à l'étape 5.1 :
     1.  Des morceaux d'un nombre cible de lignes (`N`, par exemple 13) sont définis.
     2.  Les morceaux successifs se chevauchent d'un nombre de lignes spécifié (ici `O` = 2). La ligne de départ du bloc `i+1` est `O` lignes en dessous de la ligne de départ du bloc `i`.
     3.  Une petite marge de pixels (`M`, par exemple 5 pixels) est ajoutée au-dessus de la ligne supérieure et au-dessous de la ligne inférieure des limites calculées de chaque bloc pour assurer la capture complète des caractères.
@@ -75,13 +75,13 @@ certaines pages résiduelles, contenant très peu de texte, peuvent produire des
 
 ### 7. Transcription par LLM multimodal
 
-Chaque chunk \( X_i \) est transmis à un LLM multimodal (Gemini 2.5 Pro) pour être transcrite au format texte.
+Chaque chunk $X_i$ est transmis à un LLM multimodal (Gemini 2.5 Pro) pour être transcrite au format texte.
 
-Pour chaque chunk \( X_i \) le contexte fourni au LLM comprend le texte transcrit des deux chunks précédents (\( X_{i-2}, X_{i-1} \)), et le sujet de la dissertation est inséré dans un prompt système personnalisé.
+Pour chaque chunk $X_i$ le contexte fourni au LLM comprend le texte transcrit des deux chunks précédents $X_{i-2}, X_{i-1}$, et le sujet de la dissertation est inséré dans un prompt système personnalisé.
 
 Ce choix de contextualisation restreinte vise à éviter que le LLM privilégie la continuation logique du texte au détriment de la fidélité stricte à l’image.
 
-La transcription de \( X_i \) est ensuite enregistrée dans un fichier CSV, avec un léger formatage Markdown appliqué.
+La transcription de $X_i$ est ensuite enregistrée dans un fichier CSV, avec un léger formatage Markdown.
 
 ### 8. Post-traitement des textes transcrits
 
