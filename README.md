@@ -108,7 +108,7 @@ Chaque fichier CSV est ensuite post-traité :
 
 - Suppression des sauts de ligne inutiles,
 - Fusion correcte des mots coupés par des tirets (à la fin d'une ligne et au début de la suivante),
-- Détection des erreurs de chevauchement par calcul de la distance de Levenshtein entre mots adjacents.
+- Détection des chevauchement par calcul de la distance de Levenshtein.
 
 Les mots répétés deux fois sont marqués en rouge pour validation ultérieure.
 
