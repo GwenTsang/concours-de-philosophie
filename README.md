@@ -6,27 +6,23 @@ L'objectif est de transcrire de manière fidèle des copies manuscrites scannée
 ## Étapes
 
 
-### 1. Centralisation des sources
+### 1. Conversion des pages PDF en images PNG
 
 Tous les fichiers PDF correspondant aux scans de copies sont regroupés dans un **unique répertoire** `folder`.
 
-
-### 2. Conversion des pages PDF en images PNG
-
 Chaque page de chaque fichier PDF dans `folder` est convertie en format PNG,  en couleur, avec une résolution de 300 DPI.
 
-Un sous-dossier distinct est créé pour chaque copie dans un dossier principal (portant le même nom que le fichier PDF).
+Un sous-dossier distinct est créé pour chaque copie dans un dossier principal (portant le même nom que le fichier PDF dont ce sous-dossier contient les pages au format PNG).
 
-### 3. Suppression de l'encart de numérotation
+### 2. Suppression de l'encart de numérotation
 
-Chaque image PNG comporte en bas à droite un encart de numérotation qui doit être supprimé.  
+Chaque image PNG ainsi obtenue comporte en bas à droite un encart de numérotation qui doit être supprimé.  
 Cette suppression s'effectue selon des coordonnées fixes \((x_0, y_0, x_1, y_1)\), définissant un rectangle à retirer.
 
-**Motivation** :  
 Lors de l'étape d'OCR, si cet encart est conservé, le LLM recopie les numéros, générant des erreurs de transcription.  
 De plus, cette suppression doit précéder tout autre traitement, car le rognage du header modifie la dimension des images, or la position de l'encart dépend directement de la hauteur et de la largeur de l'image.
 
-### 4. Détermination de la séparation Header / Corps du texte
+### 3. Détermination de la séparation Header / Corps du texte
 
 On calcule, pour chaque image, une **coordonnée \( y^* \)** sur l'axe vertical, qui sépare le **header** (zone administrative) du **corps manuscrit** (texte utile).
 
@@ -43,7 +39,7 @@ où :
 
 La valeur de \( y^* \) est déterminée de manière semi-automatique, puis appliquée à toutes les pages dans les différents sous-dossiers.
 
-### 5. Détection et suppression manuelle des pages blanches
+### 4. Détection et suppression manuelle des pages blanches
 
 Une détection automatique est effectuée par calcul d'un **seuil de contraste global** de l’image, pour isoler les images "blanches".
 
@@ -51,9 +47,9 @@ Cependant, certaines écritures (notamment à l’encre bleue) produisent un con
 - `Keep` : conserver l’image,
 - `Delete` : supprimer l’image.
 
-### 6. Détection des lignes et partition en blocs
+### 5. Détection des lignes et partition en blocs
 
-#### 6.1 Extraction des interlignes
+#### 5.1 Extraction des interlignes
 
 Chaque image est analysée pour supprimer l'arrière-plan blanc (détourage),
 - détecter les interlignes du texte manuscrit.
@@ -62,7 +58,7 @@ Le modèle suppose un espacement vertical approximatif de \(87 \pm 3\) pixels en
 
 Un algorithme d'optimisation détermine les positions \( y_1, y_2, \dots, y_n \) des lignes manuscrites, en minimisant les écarts à cet espacement attendu.
 
-#### 6.2 Partition de l’image
+#### 5.2 Partition de l’image
 
 L’image \( X \) est alors **découpée verticalement** en blocs :
 
@@ -83,14 +79,14 @@ L_{i} \cap L_{i+1} = \quad \text{(2 lignes partagées)}
 
 En fin de traitement si le dernier chunk d'une page contient trop peu de lignes (par exemple 1 ou 2 lignes isolées), il est fusionné avec le chunk précédent afin d'assurer la cohérence.
 
-### 7. Suppression des chunks vides ou suspects
+### 6. Suppression des chunks vides ou suspects
 
 Un second filtre est appliqué pour supprimer les fichiers de taille trop petite, ou à contraste trop faible.
 
 **Justification** :  
 certaines pages résiduelles, contenant très peu de texte, peuvent produire des chunks inutiles ou vides qu’il convient d’éliminer.
 
-### 8. Transcription par LLM multimodal
+### 7. Transcription par LLM multimodal
 
 Chaque chunk \( X_i \) est transmis à un LLM multimodal (Gemini 2.5 Pro) pour être transcrite au format texte.
 
@@ -102,7 +98,7 @@ La transcription de \( X_i \) est ensuite enregistrée dans un fichier CSV, avec
 
 ---
 
-### 9. Post-traitement des textes transcrits
+### 8. Post-traitement des textes transcrits
 
 Chaque fichier CSV est ensuite post-traité :
 
