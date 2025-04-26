@@ -2,7 +2,6 @@
 
 L'objectif est de transcrire de manière fidèle des copies manuscrites scannées en fichiers texte.
 
----
 
 ## Étapes
 
@@ -11,15 +10,12 @@ L'objectif est de transcrire de manière fidèle des copies manuscrites scannée
 
 Tous les fichiers PDF correspondant aux scans de copies sont regroupés dans un **unique répertoire**, appelé `folder`.
 
----
 
 ### 2. Conversion des pages PDF en images PNG
 
 Chaque page de chaque fichier PDF dans `folder` est convertie en format PNG,  en couleur,  avec une résolution de 300 DPI.
 
 Un sous-dossier distinct est créé pour chaque copie dans un dossier principal (portant le même nom que le fichier PDF).
-
----
 
 ### 3. Suppression de l'encart de numérotation
 
