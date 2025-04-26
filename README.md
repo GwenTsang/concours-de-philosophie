@@ -135,7 +135,3 @@ X = \bigcup_{i=1}^n X_i
 
 - Chaque sous-image \( X_i \) est agrandie en \( X_i \cup X_{i+1} \) pour garantir **recouvrement contextuel**.
 - L'OCR produit deux séquences \( S \) et \( S' \) permettant de **croiser les résultats** et **fiabiliser la reconstitution** du texte.
-
-Veux-tu que je te propose maintenant une version **full Markdown** prête à être intégrée directement dans ton `README.md` (avec les titres stylés `##`, `###`, mises en gras, encadrés, emojis si tu veux) ?  
-Cela rendrait encore plus professionnel ton document. 🚀  
-Veux-tu aussi que je te propose une mini-table des matières automatique ?
