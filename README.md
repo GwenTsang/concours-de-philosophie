@@ -1,6 +1,6 @@
 # Traitement automatisé des copies scannées
 
-L'objectif est de transcrire de manière fidèle des copies manuscrites scannées en fichiers texte, en minimisant les erreurs d'interprétation par l'OCR et en structurant rigoureusement les données extraites.
+L'objectif est de transcrire de manière fidèle des copies manuscrites scannées en fichiers texte.
 
 ---
 
