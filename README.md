@@ -8,7 +8,7 @@ L'objectif est de transcrire de manière fidèle des copies manuscrites scannée
 
 ### 1. Conversion des pages PDF en images PNG
 
-Tous les fichiers PDF correspondant aux scans de copies sont regroupés dans un **unique répertoire** `folder`.
+Tous les fichiers PDF correspondant aux scans de copies sont regroupés dans un unique répertoire `folder`.
 
 Chaque page de chaque fichier PDF dans `folder` est convertie en format PNG,  en couleur, avec une résolution de 300 DPI.
 
@@ -17,27 +17,19 @@ Un sous-dossier distinct est créé pour chaque copie dans un dossier principal 
 ### 2. Suppression de l'encart de numérotation
 
 Chaque image PNG ainsi obtenue comporte en bas à droite un encart de numérotation qui doit être supprimé.  
-Cette suppression s'effectue selon des coordonnées fixes \((x_0, y_0, x_1, y_1)\), définissant un rectangle à retirer.
+Cette suppression s'effectue selon des coordonnées fixes $$(x_0, y_0, x_1, y_1)$$, définissant un rectangle à retirer.
 
 Lors de l'étape d'OCR, si cet encart est conservé, le LLM recopie les numéros, générant des erreurs de transcription.  
 De plus, cette suppression doit précéder tout autre traitement, car le rognage du header modifie la dimension des images, or la position de l'encart dépend directement de la hauteur et de la largeur de l'image.
 
-### 3. Détermination de la séparation Header / Corps du texte
+### 3. Décomposition de chaque image par séparation Header / Corps du texte
 
-On calcule, pour chaque image, une **coordonnée \( y^* \)** sur l'axe vertical, qui sépare le **header** (zone administrative) du **corps manuscrit** (texte utile).
+On calcule, pour chaque image, une **coordonnée \( y^* \)** sur l'axe vertical, qui sépare le **header** (la zone administrative) du **texte manuscrit**.
 
-Formellement, pour chaque image \( X \) :
-
-\[
-X = H(X) \cup C(X)
-\]
-
+Formellement, chaque image $X = H(X) \cup C(X)$
 où :
-
-- \( H(X) = \{ (x, y) \in X \, | \, 0 \leq y \leq y^* \} \) est le header,
-- \( C(X) = \{ (x, y) \in X \, | \, y^* < y \leq \text{Hauteur}(X) \} \) est le corps du texte.
-
-La valeur de \( y^* \) est déterminée de manière semi-automatique, puis appliquée à toutes les pages dans les différents sous-dossiers.
+- ![equation](https://latex.codecogs.com/svg.latex?H(X)=\\{(x,y)\\in%20X\\,|\\,0\\leq%20y\\leq%20y^*\\}) est le header,
+- ![equation](https://latex.codecogs.com/svg.latex?C(X)=\\{(x,y)\\in%20X\\,|\\,y^*<y\\leq\\text{Hauteur}(X)\\}) est le corps du texte manuscrit.
 
 ### 4. Détection et suppression manuelle des pages blanches
 
@@ -51,22 +43,32 @@ Cependant, certaines écritures (notamment à l’encre bleue) produisent un con
 
 #### 5.1 Extraction des interlignes
 
-Chaque image est analysée pour supprimer l'arrière-plan blanc (détourage),
-- détecter les interlignes du texte manuscrit.
-
-Le modèle suppose un espacement vertical approximatif de \(87 \pm 3\) pixels entre deux lignes successives.
-
-Un algorithme d'optimisation détermine les positions \( y_1, y_2, \dots, y_n \) des lignes manuscrites, en minimisant les écarts à cet espacement attendu.
+* **Process:**
+    1.  Suppression de l'arrière-plan: L'arrière-plan blanc/clair de la zone de texte manuscrit $C(X)$ est supprimé, généralement en convertissant les pixels clairs et non saturés en transparence. Cela permet d'isoler les traits d'encre.
+    2.  Recherche de grille: Un algorithme recherche l'emplacement optimal de la grille de lignes verticales. Il suppose un espacement cohérent des lignes (par exemple, la cible `87 ± 3` pixels) et itère à travers les décalages verticaux possibles (`0` à `espacement-1`) et les espacements dans la plage définie (par exemple, `84` à `90` pixels).
+    3.  Critère d'optimisation: La grille optimale (`best_offset`, `best_spacing`) est sélectionnée comme celle dont les lignes horizontales minimisent le chevauchement total avec les pixels de texte non transparents (traits d'encre).
 
 #### 5.2 Partition de l’image
 
-L’image \( X \) est alors **découpée verticalement** en blocs.
+L'objectif est de diviser le corps $C(X)$ de chaque page en segments (chunks) gérables et se chevauchant, adaptés à l'OCR.
 
-En fin de traitement si le dernier chunk d'une page contient trop peu de lignes (par exemple 1 ou 2 lignes isolées), il est fusionné avec le chunk précédent afin d'assurer la cohérence.
+
+* **Process** basé sur les coordonnées des lignes détectées (`y_coords`) à l'étape 5.1 :
+    1.  Des morceaux d'un nombre cible de lignes (`N`, par exemple 13) sont définis.
+    2.  Les morceaux successifs se chevauchent d'un nombre de lignes spécifié (ici `O` = 2). La ligne de départ du bloc `i+1` est `O` lignes en dessous de la ligne de départ du bloc `i`.
+    3.  Une petite marge de pixels (`M`, par exemple 5 pixels) est ajoutée au-dessus de la ligne supérieure et au-dessous de la ligne inférieure des limites calculées de chaque bloc pour assurer la capture complète des caractères.
+4.**Le *tout premier bloc* (`chunk_000`) de chaque page est forcé de commencer à la rangée de pixels `y=0` du corps recadré $C(X)$ pour éviter la perte de contenu en haut.
+* Sortie:** Une série de fichiers PNG nommés séquentiellement (par exemple, `page1_chunk_000.png`, `page1_chunk_001.png`, ...) pour chaque page originale.
+
 
 ### 6. Suppression des chunks vides ou suspects
 
-Un second filtre est appliqué pour supprimer les fichiers de taille trop petite, ou à contraste trop faible.
+Le _dernier_ morceau généré pour une page est fusionné avec le précédent s'il répond à des critères spécifiques :
+    * Si sa hauteur est comprise dans une fourchette définie (par exemple, 15-100 pixels).
+    * Si le contraste de son contenu (écart-type) est supérieur à un seuil (indiquant qu'il n'est pas vide).
+
+Ensuite, ce petit morceau final est concaténé (fusionné) verticalement avec l'avant-dernier fichier de morceau, en écrasant le fichier de l'avant-dernier morceau.
+Cela permet de réduire le nombre de très petits morceaux.
 
 **Justification** :  
 certaines pages résiduelles, contenant très peu de texte, peuvent produire des chunks inutiles ou vides qu’il convient d’éliminer.
@@ -80,8 +82,6 @@ Pour chaque chunk \( X_i \) le contexte fourni au LLM comprend le texte transcri
 Ce choix de contextualisation restreinte vise à éviter que le LLM privilégie la continuation logique du texte au détriment de la fidélité stricte à l’image.
 
 La transcription de \( X_i \) est ensuite enregistrée dans un fichier CSV, avec un léger formatage Markdown appliqué.
-
----
 
 ### 8. Post-traitement des textes transcrits
 
