@@ -92,7 +92,7 @@ certaines pages résiduelles, contenant très peu de texte, peuvent produire des
 
 ### 8. Transcription par LLM multimodal
 
-Chaque chunk \( X_i \) est transmis à un LLM multimodal (Gemini 2.5 Pro) pour transcription via OCR.
+Chaque chunk \( X_i \) est transmis à un LLM multimodal (Gemini 2.5 Pro) pour être transcrite au format texte.
 
 Pour chaque chunk \( X_i \) le contexte fourni au LLM comprend le texte transcrit des deux chunks précédents (\( X_{i-2}, X_{i-1} \)), et le sujet de la dissertation est inséré dans un prompt système personnalisé.
 
@@ -135,8 +135,6 @@ X = \bigcup_{i=1}^n X_i
 
 - Chaque sous-image \( X_i \) est agrandie en \( X_i \cup X_{i+1} \) pour garantir **recouvrement contextuel**.
 - L'OCR produit deux séquences \( S \) et \( S' \) permettant de **croiser les résultats** et **fiabiliser la reconstitution** du texte.
-
----
 
 Veux-tu que je te propose maintenant une version **full Markdown** prête à être intégrée directement dans ton `README.md` (avec les titres stylés `##`, `###`, mises en gras, encadrés, emojis si tu veux) ?  
 Cela rendrait encore plus professionnel ton document. 🚀  
