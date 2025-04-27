@@ -1,4 +1,4 @@
-***L’art est-il un langage ?*** 
+### **L’art est-il un langage ?**
 
 Les œuvres d’art nous parlent : l’expressivité de l’art est évidente pour tous ceux qui éprouvent de l’intérêt pour elles et qui prennent plaisir à les fréquenter. Il y a une puissance de l’art, qu’on utilise et qu’on exploite à des fins diverses : tour à tour la pédagogie, la publicité, propagande empruntent à l’art une part de son pouvoir d’entraînement. Les discours à eux seuls peuvent-ils convaincre ? Eh bien, l’art apporte un complément symbolique utile à l’accomplissement de leur tâche.  
 Mais, demandera-t-on, en quoi consiste cette puissance de l’art ? De quoi ses œuvres sont-elles l’expression ? On peut soupçonner que l’amateur d’art, lorsqu’il est séduit par une œuvre, attribue abusivement à l’art une puissance qui ne provient que de lui-même, c’est-à-dire de son enthousiasme, de sa psychologie particulière, qui trouve dans l’œuvre une affinité culturelle. Mais on peut faire une autre hypothèse : est-ce que l’œuvre d’art ne donne pas à comprendre quelque chose ? Le plaisir ne serait alors que l’indice d’un acte de communication réussi.  
