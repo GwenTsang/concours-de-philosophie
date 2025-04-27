@@ -1,4 +1,4 @@
-**La clarté**
+### **La clarté**
 
 À tort ou à raison, les écrits et la pensée d'Héraclite ont été qualifiés d'obscurs, par ses contemporains et depuis eux, d'une part par la difficulté  son écriture, qui leur est apparue cryptique et d'autre part par les thèses et idées mêmes qui étaient évoquées, radicalement différentes du climat intellectuel qui régnait alors (par ex. Marcel Conche évoque un dualisme dynamique qui ne pouvait être qu'incompréhensible aux grecs). Donc si Héraclite est obscur parce qu'il est incompréhensible, on peut bien imaginer qu'il existe l'inverse, à savoir une pensée et une écriture claire.  
 L'analogie entre la vue et la pensée, entre l'œil et l'esprit, permet de comprendre la clarté épistémologiquement. La clarté est cette qualité qui permet à l'esprit de saisir une chose aisément et correctement, et réciproquement, à la chose d'être saisie avec justesse et vérité par l'esprit. Comprendre clairement les intentions de quelqu'un, c'est "voir" où il veut en venir.  
