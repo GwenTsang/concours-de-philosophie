@@ -1,6 +1,4 @@
-**L’exception**
-
-**Introduction** 
+### **L’exception**
 
 	L’exception désigne ce qui n’est pas conforme à une norme, une règle ou une loi données, ce  qu'on ne peut pas subsumer sous une règle. Pourtant, elle n’est pas nécessairement *anormale*,  ni *illégale*. Il faut par conséquent préciser à quel type d’*irrégularité* nous avons affaire. En  effet, l’écart que l’exception constitue vis à vis de la règle présente ceci de particulier qu’elle  n’annule pas la relation qui existe entre les deux termes. Mieux, non seulement l’écart ne  supprime pas la relation à la règle \- l’exception ne peut être pensée sans relation à la règle, elle  lui est donc constitutivement relative \- mais il n’y a pas d’exception sans règle qui la  définisse, l’exception révèle la règle en y dérogeant.  
 
