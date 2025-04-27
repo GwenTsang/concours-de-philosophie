@@ -1,4 +1,4 @@
-# Le vrai et le réel
+### Le vrai et le réel
 
 Le sens commun admet spontanément un rapport nécessaire entre le vrai et le réel. Si la vérité désigne le but que se donne la pensée quand elle a pour objectif d’être une connaissance de la réalité,  alors le vrai désigne une relation de connaissance entre le sujet et l’objet. Le vrai constitue ainsi le bien de la connaissance dans la mesure où cette connaissance s’accorderait de manière exacte, adéquate à l’objet lui-même. Dans le cas du réel, que l’on peut définir comme ce qui est indépendamment de l’esprit, le vrai se distingue par rapport à son objet au terme substantivé de vérité puisqu’il porte sur un étant mais aussi s’oppose au faux, que l’on peut définit comme l’absence de rapport entre la connaissance et son objet, ou encore à l’erreur qui renvoie étymologiquement à l’action d’errer en dehors de toute rapport d’adéquation à l’objet. Le vrai, pour le sens commun est donc ce qui constitue la perfection de la connaissance : c’est pourquoi le vrai et le réel semblent de prime abord indissociables.
 
