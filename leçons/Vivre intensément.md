@@ -1,4 +1,4 @@
-**Vivre intensément**
+### **Vivre intensément**
 
 Dans le roman d’Oscar Wilde, *Le Portrait de Dorian Gray*, le lecteur suit l’histoire d'un jeune dandy hédoniste qui fonde sa vie sur la jouissance, la beauté et l'exaltation des sensations, s'enfermant peu à peu dans une esthétique narcissique qui le transforme en un monstre d'égoïsme et de cruauté. Ce passage de l'hédonisme à la décadence morale est-il la suite logique d'une vie vécue sur le mode de l'intensité ?
 
