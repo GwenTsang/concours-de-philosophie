@@ -122,4 +122,6 @@ X = \bigcup_{i=1}^n X_i
  Merci à Victor-Côme pour son aide à la transcription.
 Merci à toutes les personnes ayant partagé leur copies de concours (particulièrement merci à Lucas Galipot, Gaël Alix, Marie-Camille, Anne Sauvagnargues, Guillaume Bessis, Eva Mayer, Romain Lossec, Ariane Gonzalez, ).
 
+### Coût de l'OCR
 
+Sans compter les redondances (les images ayant été traitées deux fois à cause d'erreurs humaines), le coût pour à peu près 50 copies traitées à l'heure actuelle (01/05/2025) s'élève environ à 27€.
