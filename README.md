@@ -119,7 +119,7 @@ X = \bigcup_{i=1}^n X_i
 
 ### Remerciements
 
- Merci à Victor-Côme pour son aide à la transcription.
+ Merci à Victor-Côme et Nahel pour l'aide à la transcription.
 Merci à toutes les personnes ayant partagé leur copies de concours (particulièrement merci à Lucas Galipot, Gaël Alix, Marie-Camille, Anne Sauvagnargues, Guillaume Bessis, Eva Mayer, Romain Lossec, Ariane Gonzalez, ).
 
 ### Coût de l'OCR
