@@ -105,7 +105,7 @@ Deux méthodes automatiques ont été envisagées pour détecter la fin du heade
    - la note (chiffre rouge) est unique dans l’image et facilement détectable,
    - toutefois, l’espacement vertical sous la note est lui aussi non constant, empêchant là aussi une généralisation fiable.
 
-# Détails
+### Détails
 
 - Chaque image \( X \) est partitionnée selon l’axe des ordonnées :
 
@@ -116,3 +116,10 @@ X = \bigcup_{i=1}^n X_i
 
 - Chaque sous-image \( X_i \) est agrandie en \( X_i \cup X_{i+1} \) pour garantir **recouvrement contextuel**.
 - L'OCR produit deux séquences \( S \) et \( S' \) permettant de **croiser les résultats** et **fiabiliser la reconstitution** du texte.
+
+### Remerciements
+
+ Merci à Victor-Côme pour son aide à la transcription.
+Merci à toutes les personnes ayant partagé leur copies de concours (particulièrement merci à Lucas Galipot, Gaël Alix, Marie-Camille, Anne Sauvagnargues, Guillaume Bessis, Eva Mayer, Romain lossec, Ariane Gonzalez, ).
+
+
