@@ -1,6 +1,11 @@
 Nous disposons à l'heure actuelle de 83 scans au format PDF.
 
-Les scans des copies en PDF sont téléchargeables au lien :
+Copies de dissertation d'agrégation : 41
+Copies de dissertation de CAPES : 9
+Copies de dissertation BAC : 1
+Copies de dissertation ENS : 32
+
+82 scans de copies de concours en PDF sont téléchargeables au lien :
 https://mega.nz/file/h8BBkbyK#St6YYPirIx-WwGAioxIm5zER49a9xit9Hp_36n7r1-s
 
 Le fichier est volumineux et n'est pas optimisé.
