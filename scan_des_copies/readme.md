@@ -1,4 +1,4 @@
-Nous disposons à l'heure actuelle de 83 scans au format PDF.
+Nous disposons à l'heure actuelle de 83 scans de dissertation au format PDF.
 
 Copies de dissertation d'agrégation : 41<br>
 Copies de dissertation de CAPES : 9<br>
