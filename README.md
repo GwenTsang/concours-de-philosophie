@@ -24,7 +24,7 @@ De plus, cette suppression doit précéder tout autre traitement, car le rognage
 
 ### 3. Décomposition de chaque image par séparation Header / Corps du texte
 
-On calcule, pour chaque image, une **coordonnée \( y^* \)** sur l'axe vertical, qui sépare le **header** (la zone administrative) du **texte manuscrit**.
+On calcule, pour chaque image, une **coordonnée** sur l'axe vertical, qui sépare le **header** (la zone administrative) du **texte manuscrit**.
 
 Formellement, chaque image $X = H(X) \cup C(X)$
 où :
@@ -58,7 +58,7 @@ L'objectif est de diviser le corps $C(X)$ de chaque page en segments (chunks) g�
     2.  Les morceaux successifs se chevauchent d'un nombre de lignes spécifié (ici `O` = 2). La ligne de départ du bloc `i+1` est `O` lignes en dessous de la ligne de départ du bloc `i`.
     3.  Une petite marge de pixels (`M`, par exemple 5 pixels) est ajoutée au-dessus de la ligne supérieure et au-dessous de la ligne inférieure des limites calculées de chaque bloc pour assurer la capture complète des caractères.
 4. Le *tout premier bloc* (`chunk_000`) de chaque page est forcé de commencer à la rangée de pixels `y=0` du corps recadré $C(X)$ pour éviter la perte de contenu en haut.
-* Sortie:* Une série de fichiers PNG nommés séquentiellement (par exemple, `page1_chunk_000.png`, `page1_chunk_001.png`, ...) pour chaque page originale.
+   En output on obtient une série de fichiers PNG nommés séquentiellement (par exemple, `page1_chunk_000.png`, `page1_chunk_001.png`, ...) pour chaque page originale.
 
 
 ### 6. Suppression des chunks vides ou suspects
@@ -106,7 +106,7 @@ Deux méthodes automatiques ont été envisagées pour détecter la fin du heade
 
 ### Détails
 
-- Le partionnement des images $X$ selon l'axe des ordonnées (à savoir $X = \bigcup_{i=1}^n X_i \quad \text{avec} \quad X_i \cap X_j = \varnothing \quad (i \neq j)$) **ne constitue pas l'input donné aux LLMs multimodaux** 
+- Le partionnement des images $X$ selon l'axe des ordonnées (à savoir $X = \bigcup_{i=1}^n X_i \quad \text{avec} \quad X_i \cap X_j = \varnothing \quad (i \neq j)$ ) **ne constitue pas l'input donné aux LLMs multimodaux** 
 
 En effet, chaque sous-image $X_i$ est agrandie en $X_i \cup X_{i+1}$ pour permettre un **recouvrement contextuel** et donc, de demander **deux fois** un OCR au LLM pour ces intersections mutuelles.
 L'OCR produit deux séquences $S$ et $S'$ permettant de **croiser les résultats** et **fiabiliser la reconstitution** du texte.
