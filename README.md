@@ -65,7 +65,7 @@ L'objectif est de diviser le corps $C(X)$ de chaque page en segments (chunks) g�
 
 Le _dernier_ morceau généré pour une page est fusionné avec le précédent s'il répond à des critères spécifiques :
 * Si sa hauteur est comprise dans une fourchette définie (par exemple, 15-100 pixels).
-* Si le contraste de son contenu (mesuré par un écart-type colorimétrique) est supérieur à un seuil (indiquant qu'il n'est pas vide).
+* Si le contraste de son contenu (mesuré par un écart-type colorimétrique) est supérieur à un seuil (indiquant qu'il n'est pas vide mais qu'il contient suffisamment de texte et / ou du texte suffisamment fonçé).
 
 Ensuite, ce petit morceau final est concaténé (fusionné) verticalement avec l'avant-dernier fichier de morceau, en écrasant le fichier de l'avant-dernier morceau.
 Cela permet de réduire le nombre de très petits morceaux.
