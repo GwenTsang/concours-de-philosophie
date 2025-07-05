@@ -57,8 +57,8 @@ L'objectif est de diviser le corps $C(X)$ de chaque page en segments (chunks) g�
     1.  Des morceaux d'un nombre cible de lignes (`N`, par exemple 13) sont définis.
     2.  Les morceaux successifs se chevauchent d'un nombre de lignes spécifié (ici `O` = 2). La ligne de départ du bloc `i+1` est `O` lignes en dessous de la ligne de départ du bloc `i`.
     3.  Une petite marge de pixels (`M`, par exemple 5 pixels) est ajoutée au-dessus de la ligne supérieure et au-dessous de la ligne inférieure des limites calculées de chaque bloc pour assurer la capture complète des caractères.
-4.**Le *tout premier bloc* (`chunk_000`) de chaque page est forcé de commencer à la rangée de pixels `y=0` du corps recadré $C(X)$ pour éviter la perte de contenu en haut.
-* Sortie:** Une série de fichiers PNG nommés séquentiellement (par exemple, `page1_chunk_000.png`, `page1_chunk_001.png`, ...) pour chaque page originale.
+4. Le *tout premier bloc* (`chunk_000`) de chaque page est forcé de commencer à la rangée de pixels `y=0` du corps recadré $C(X)$ pour éviter la perte de contenu en haut.
+* Sortie:* Une série de fichiers PNG nommés séquentiellement (par exemple, `page1_chunk_000.png`, `page1_chunk_001.png`, ...) pour chaque page originale.
 
 
 ### 6. Suppression des chunks vides ou suspects
@@ -70,8 +70,7 @@ Le _dernier_ morceau généré pour une page est fusionné avec le précédent s
 Ensuite, ce petit morceau final est concaténé (fusionné) verticalement avec l'avant-dernier fichier de morceau, en écrasant le fichier de l'avant-dernier morceau.
 Cela permet de réduire le nombre de très petits morceaux.
 
-**Justification** :  
-certaines pages résiduelles, contenant très peu de texte, peuvent produire des chunks inutiles ou vides qu’il convient d’éliminer.
+**Pourquoi ?** Parce que certaines pages résiduelles, contenant très peu de texte, peuvent produire des chunks inutiles ou vides qu’il convient d’éliminer.
 
 ### 7. Transcription par LLM multimodal
 
