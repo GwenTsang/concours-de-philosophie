@@ -106,15 +106,10 @@ Deux méthodes automatiques ont été envisagées pour détecter la fin du heade
 
 ### Détails
 
-- Chaque image $X$ est partitionnée selon l’axe des ordonnées :
+- Le partionnement des images $X$ selon l'axe des ordonnées (à savoir $X = \bigcup_{i=1}^n X_i \quad \text{avec} \quad X_i \cap X_j = \varnothing \quad (i \neq j)$) **ne constitue pas l'input donné aux LLMs multimodaux** 
 
-\[
-X = \bigcup_{i=1}^n X_i
-\quad \text{avec} \quad X_i \cap X_j = \varnothing \quad (i \neq j)
-\]
-
-- Chaque sous-image \( X_i \) est agrandie en \( X_i \cup X_{i+1} \) pour garantir **recouvrement contextuel**.
-- L'OCR produit deux séquences \( S \) et \( S' \) permettant de **croiser les résultats** et **fiabiliser la reconstitution** du texte.
+En effet, chaque sous-image $X_i$ est agrandie en $X_i \cup X_{i+1}$ pour permettre un **recouvrement contextuel** et donc, de demander **deux fois** un OCR au LLM pour ces intersections mutuelles.
+L'OCR produit deux séquences \( S \) et \( S' \) permettant de **croiser les résultats** et **fiabiliser la reconstitution** du texte.
 
 ### Remerciements
 
