@@ -74,7 +74,7 @@ Cela permet de réduire le nombre de très petits morceaux.
 
 ### 7. Transcription par LLM multimodal
 
-Chaque chunk $X_i$ est transmis à un LLM multimodal (Gemini 2.5 Pro) pour être transcrite au format texte.
+Chaque chunk $X_i$ est transmis à un LLM multimodal pour être transcrite au format texte.
 
 Pour chaque chunk $X_i$ le contexte fourni au LLM comprend le texte transcrit des deux chunks précédents $X_{i-2}, X_{i-1}$, et le sujet de la dissertation est inséré dans un prompt système personnalisé.
 
@@ -113,7 +113,7 @@ L'OCR produit deux séquences $S$ et $S'$ permettant de **croiser les résultats
 
 ### Remerciements
 
-Merci à toutes les personnes ayant partagé leur copies de concours (merci à Lucas Galipot, Gaël Alix, Marie-Camille, Anne Sauvagnargues, Guillaume Bessis, Eva Mayer, Romain Lossec, Ariane Gonzalez, ).
+Merci à toutes les personnes ayant partagé leur copies de concours (merci à Lucas Galipot, Gaël Alix, Marie-Camille, Anne Sauvagnargues, Guillaume Bessis, Eva Mayer, Romain Lossec, Ariane Gonzalez, et https://neoclassica.co/agregations-et-capes-de-philosophie/).
 
 ### Coût de l'OCR
 
