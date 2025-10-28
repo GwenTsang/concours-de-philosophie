@@ -19,7 +19,7 @@ def download(u):
 
 download(GITHUB_URL)
 ```
-https://github.com/GwenTsang/concours-de-philosophie/blob/main/copies_json_csv/JSON%20to%20DOCX%20or%20ODT.py
+Ensuite l'exportation peut se faire avec :
 ```
 !python JSONtoDOCXorODT.py "PATH_JSON" -o "/content"
 ```
