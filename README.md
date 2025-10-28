@@ -90,7 +90,9 @@ Chaque fichier CSV est ensuite post-traité :
 - Fusion correcte des mots coupés par des tirets (à la fin d'une ligne et au début de la suivante),
 - Détection des chevauchement par calcul de la distance de Levenshtein.
 
-Les mots répétés deux fois sont marqués en rouge pour validation ultérieure.
+Les mots répétés deux fois sont marqués en rouge.
+Il aurait été possible de supprimer automatiquement les chevauchements, mais ce n'est pas implémenté par précaution.
+Ainsi, après le passage par cette pipeline, nous nettoyons minutieusement les fichiers en vérifiant manuellement la cohérence, en corrigeant les fautes d'orthographe, et en comparant avec le PDF original.
 
 ## Remarque technique sur la détection automatique du header
 
