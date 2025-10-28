@@ -113,7 +113,7 @@ L'OCR produit deux séquences $S$ et $S'$ permettant de **croiser les résultats
 
 ### Remerciements
 
-Merci à toutes les personnes ayant partagé leur copies de concours (merci à Lucas Galipot, Gaël Alix, Marie-Camille, Anne Sauvagnargues, Guillaume Bessis, Eva Mayer, Romain Lossec, Ariane Gonzalez, et https://neoclassica.co/agregations-et-capes-de-philosophie/).
+Merci à toutes les personnes ayant partagé leur copies de concours (merci à Victor-Côme Rouger, Lucas Galipot, Gaël Alix, Marie-Camille, Anne Sauvagnargues, Guillaume Bessis, Eva Mayer, Romain Lossec, Ariane Gonzalez, et https://neoclassica.co/agregations-et-capes-de-philosophie/).
 
 ### Coût de l'OCR
 
