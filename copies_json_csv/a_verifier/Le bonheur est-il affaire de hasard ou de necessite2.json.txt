@@ -1,5 +1,5 @@
 {
-  "niveau": "",
+  "niveau": "agregation",
   "annee": "",
   "sujet": "Le bonheur est-il affaire de hasard ou de nécessité ?",
   "type_sujet": "Sujet-question",
