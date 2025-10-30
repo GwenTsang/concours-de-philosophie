@@ -17,8 +17,7 @@ def normalize_text(s: Optional[str]) -> str:
     s = s.replace("\\\"", "\"")
     # Réduit espaces superflus autour de sauts de ligne (ne touche pas au début de ligne)
     s = re.sub(r"[ \t]+\n", "\n", s)
-    # IMPORTANT : ne pas strip() pour conserver les tabulations de début de paragraphe
-    # On retire uniquement d'éventuels retours à la ligne superflus en bordure
+    # Ne pas strip() complètement pour préserver les tabs de tête
     return s.strip("\n")
 
 Token = Tuple[str, Optional[str]]  # (texte, style) style in {None, 'b','i','s'}
@@ -84,7 +83,7 @@ def extract_structure(data: Dict) -> Dict:
     """
     Récupère uniquement :
     - en-tête : niveau+année, note, sujet
-    - corps par blocs : introduction, partie_1, transition_1, partie_2, transition_2, partie_3, conclusion
+    - corps par blocs : introduction, I, transition_1, II, transition_2, III, conclusion
     Ignore les champs manquants.
 
     NB:
@@ -116,13 +115,14 @@ def extract_structure(data: Dict) -> Dict:
             # S’il n’y a pas d’introduction, on crée un paragraphe unique avec Tab initiale
             intro_paragraphs = [f"{TAB_INDENT}{plan_txt}"]
 
+    # Remplacement des intitulés P1/P2/P3 -> I/II/III
     blocks_order = [
         ("Introduction", intro_paragraphs),               # déjà traité ci-dessus
-        ("P1", data.get("partie_1")),
+        ("I", data.get("partie_1")),
         ("Transition 1", data.get("transition_1")),
-        ("P2", data.get("partie_2")),
+        ("II", data.get("partie_2")),
         ("Transition 2", data.get("transition_2")),
-        ("P3", data.get("partie_3")),
+        ("III", data.get("partie_3")),
         ("Conclusion", data.get("conclusion")),
     ]
 
@@ -139,7 +139,7 @@ def extract_structure(data: Dict) -> Dict:
 
 # ---------- Export Markdown ----------
 
-def export_markdown(struct: Dict, md_path: Path) -> None:
+def export_markdown(struct: Dict, md_path: Path, rawtext: bool = False) -> None:
     H = struct["header"]
     lines: List[str] = []
     # En-tête centré (HTML pour le centrage)
@@ -156,20 +156,17 @@ def export_markdown(struct: Dict, md_path: Path) -> None:
     # Corps
     for label, paragraphs in struct["blocks"]:
         is_transition = bool(re.match(r"Transition\s*\d+", label, flags=re.IGNORECASE))
-        if not is_transition:
-            lines.append(f"## {label}")
-            lines.append("")
-        else:
-            # Pas de titre pour les transitions (pas de gros/gras), juste des sauts de ligne
+
+        # Balises centrées sauf en mode rawtext (où on ne met AUCUNE balise)
+        if not is_transition and not rawtext:
+            lines.append(f'<div align="center"><h2>{label}</h2></div>')
             lines.append("")
 
+        # Paragraphes : écrits tels quels pour préserver les Tabs de tête
         for p in paragraphs:
-            # On écrit le paragraphe tel quel pour conserver les Tab en début
             lines.append(p)
             lines.append("")  # saut de ligne
-
-        # séparation douce entre blocs
-        lines.append("")
+        lines.append("")  # séparation douce entre blocs
 
     md_path.write_text("\n".join(lines).strip() + "\n", encoding="utf-8")
 
@@ -180,7 +177,6 @@ def _docx_add_line_with_leading_tabs(paragraph, line: str, style_key: Optional[s
     Ajoute une ligne dans un paragraphe DOCX en respectant les tabulations initiales,
     puis le texte (avec style éventuel).
     """
-    # Compte les tabs de tête
     m = re.match(r"^\t+", line)
     tabs = len(m.group(0)) if m else 0
     content = line[tabs:]
@@ -199,7 +195,7 @@ def _docx_add_line_with_leading_tabs(paragraph, line: str, style_key: Optional[s
     elif style_key == "s":
         run.font.strike = True
 
-def export_docx(struct: Dict, docx_path: Path) -> None:
+def export_docx(struct: Dict, docx_path: Path, rawtext: bool = False) -> None:
     try:
         from docx import Document
         from docx.shared import Pt, Cm
@@ -210,7 +206,7 @@ def export_docx(struct: Dict, docx_path: Path) -> None:
             "    pip install python-docx"
         )
 
-    FIRST_LINE_CM = 0.75  # on conserve le retrait de première ligne existant
+    FIRST_LINE_CM = 0.75  # retrait de première ligne (~0,75 cm)
 
     doc = Document()
     H = struct["header"]
@@ -246,30 +242,29 @@ def export_docx(struct: Dict, docx_path: Path) -> None:
     for label, paragraphs in struct["blocks"]:
         is_transition = bool(re.match(r"Transition\s*\d+", label, flags=re.IGNORECASE))
 
-        # Titre de section (sans retrait) sauf pour les transitions
-        if not is_transition:
+        # Titre de section centré (sans retrait) sauf pour les transitions et en mode rawtext
+        if not is_transition and not rawtext:
             h = doc.add_paragraph()
             hr = h.add_run(label)
             hr.bold = True
             hr.font.size = Pt(14)
+            h.alignment = WD_ALIGN_PARAGRAPH.CENTER
 
         for para in paragraphs:
             para = normalize_text(para)
             p = doc.add_paragraph()
+            # Justification du corps du texte
+            p.alignment = WD_ALIGN_PARAGRAPH.JUSTIFY
             p.paragraph_format.first_line_indent = Cm(FIRST_LINE_CM)
 
             # Respecte les sauts internes et les tabs de tête
             for i, line in enumerate(para.split("\n")):
                 if i > 0:
                     p.add_run("\n")
-                # On parse le markdown inline par ligne
                 tokens = parse_inline_md(line)
                 if not tokens:
                     _docx_add_line_with_leading_tabs(p, line, None)
                 else:
-                    # Si le 1er token a des tabs en tête, on les respecte,
-                    # puis on ajoute les runs suivants normalement.
-                    # On traite token par token.
                     for j, (text_frag, style) in enumerate(tokens):
                         if j == 0:
                             _docx_add_line_with_leading_tabs(p, text_frag, style)
@@ -282,14 +277,14 @@ def export_docx(struct: Dict, docx_path: Path) -> None:
                             elif style == "s":
                                 r.font.strike = True
 
-        # Saut de ligne entre blocs
+        # Espace entre blocs
         doc.add_paragraph("")
 
     doc.save(str(docx_path))
 
 # ---------- Export ODT ----------
 
-def export_odt(struct: Dict, odt_path: Path) -> None:
+def export_odt(struct: Dict, odt_path: Path, rawtext: bool = False) -> None:
     from odf.opendocument import OpenDocumentText
     from odf import text, style
 
@@ -314,12 +309,14 @@ def export_odt(struct: Dict, odt_path: Path) -> None:
     doc.styles.addElement(h3)
 
     hsec = style.Style(name="HSEC", family="paragraph")
+    # Balises centrées
+    hsec.addElement(style.ParagraphProperties(attributes={"textalign": "center"}))
     hsec.addElement(style.TextProperties(attributes={"fontsize": "14pt", "fontweight": "bold"}))
     doc.styles.addElement(hsec)
 
-    # Corps des paragraphes avec retrait de première ligne
+    # Corps des paragraphes : retrait + JUSTIFY
     pstyle = style.Style(name="P", family="paragraph")
-    pstyle.addElement(style.ParagraphProperties(attributes={"textindent": FIRST_LINE_CM}))
+    pstyle.addElement(style.ParagraphProperties(attributes={"textindent": FIRST_LINE_CM, "textalign": "justify"}))
     pstyle.addElement(style.TextProperties(attributes={"fontsize": "11pt"}))
     doc.styles.addElement(pstyle)
 
@@ -351,21 +348,17 @@ def export_odt(struct: Dict, odt_path: Path) -> None:
     # Sections
     for label, paragraphs in struct["blocks"]:
         is_transition = bool(re.match(r"Transition\s*\d+", label, flags=re.IGNORECASE))
-        if not is_transition:
+        if not is_transition and not rawtext:
             doc.text.addElement(text.P(stylename=hsec, text=label))
         else:
-            # pas de titre pour la transition
+            # pas de titre pour la transition OU en mode rawtext
             doc.text.addElement(text.P(text=""))
 
         for para in paragraphs:
             para = normalize_text(para)
-            # Pour conserver les tabs de tête, on les traduit en text:tab
+            # Chaque ligne du paragraphe
             for i, line in enumerate(para.split("\n")):
                 p = text.P(stylename=pstyle)
-                if i > 0:
-                    # Ligne suivante : on insère un saut de ligne visuel
-                    # (dans ODT, un nouveau P suffit)
-                    pass
                 # Gère les tabs de tête
                 m = re.match(r"^\t+", line)
                 tabs = len(m.group(0)) if m else 0
@@ -398,7 +391,8 @@ def export_odt(struct: Dict, odt_path: Path) -> None:
 def export_from_json(
     json_path: Union[str, Path],
     out_dir: Union[str, Path] = ".",
-    basename: Optional[str] = None
+    basename: Optional[str] = None,
+    rawtext: bool = False
 ):
     json_path = Path(json_path)
     out_dir = Path(out_dir)
@@ -414,9 +408,9 @@ def export_from_json(
     docx_path = out_dir / f"{safe}.docx"
     odt_path = out_dir / f"{safe}.odt"
 
-    export_markdown(struct, md_path)
-    export_docx(struct, docx_path)
-    export_odt(struct, odt_path)
+    export_markdown(struct, md_path, rawtext=rawtext)
+    export_docx(struct, docx_path, rawtext=rawtext)
+    export_odt(struct, odt_path, rawtext=rawtext)
 
     return md_path, docx_path, odt_path
 
@@ -427,9 +421,12 @@ if __name__ == "__main__":
     ap.add_argument("json_path", help="Chemin du fichier JSON")
     ap.add_argument("-o", "--out-dir", default=".", help="Dossier de sortie")
     ap.add_argument("-b", "--basename", default=None, help="Nom de base des fichiers de sortie")
+    # Option rawtext : supporte -rawtext (forme courte non standard) et --rawtext
+    ap.add_argument("-rawtext", "--rawtext", action="store_true",
+                    help="Exporter sans balises de sections (Introduction, I, II, III, Conclusion).")
     args = ap.parse_args()
 
-    md, docx, odt = export_from_json(args.json_path, args.out_dir, args.basename)
+    md, docx, odt = export_from_json(args.json_path, args.out_dir, args.basename, rawtext=args.rawtext)
     print("Fichiers générés :")
     print(" -", md)
     print(" -", docx)
