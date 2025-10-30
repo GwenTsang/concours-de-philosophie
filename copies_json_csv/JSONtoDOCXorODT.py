@@ -66,35 +66,59 @@ def extract_structure(data: Dict) -> Dict:
     """
     Récupère uniquement :
     - en-tête : niveau+année, note, sujet
-    - corps par blocs : introduction, annonce_du_plan, partie_1, transition_1, partie_2, transition_2, partie_3, conclusion
+    - corps par blocs : introduction, partie_1, transition_1, partie_2, transition_2, partie_3, conclusion
     Ignore les champs manquants.
+
+    NB:
+    - 'annonce_du_plan' n'est plus une section séparée ; si présent, son contenu
+      est fusionné à la fin de l'introduction, sans saut de ligne, précédé d'un retrait visuel.
     """
+    INDENT_MARK = "\u2003\u2003"  # deux espaces cadratins (em spaces) pour un retrait clair
+
     header = {
         "concours": " ".join([v for v in [data.get("niveau"), data.get("annee")] if v]),
         "note": data.get("note"),
         "sujet": data.get("sujet") or data.get("title") or data.get("titre"),
     }
 
+    # Pré-traiter introduction + annonce du plan
+    intro_raw = data.get("introduction")
+    annonce_raw = data.get("annonce_du_plan")
+
+    intro_paragraphs: List[str] = []
+    if intro_raw and isinstance(intro_raw, str) and intro_raw.strip():
+        intro_paragraphs = md_to_plain_paragraphs(intro_raw)
+
+    if annonce_raw and isinstance(annonce_raw, str) and annonce_raw.strip():
+        plan_txt = normalize_text(annonce_raw).strip()
+        if intro_paragraphs:
+            # Fusion : pas de saut de ligne, on ajoute un retrait au début de l’annonce
+            intro_paragraphs[-1] = intro_paragraphs[-1].rstrip() + f" {INDENT_MARK}{plan_txt}"
+        else:
+            # S’il n’y a pas d’introduction, on crée un paragraphe unique avec l’annonce
+            intro_paragraphs = [f"{INDENT_MARK}{plan_txt}"]
+
     blocks_order = [
-        ("Introduction", "introduction"),
-        ("Annonce du plan", "annonce_du_plan"),
-        ("P1", "partie_1"),
-        ("Transition 1", "transition_1"),
-        ("P2", "partie_2"),
-        ("Transition 2", "transition_2"),
-        ("P3", "partie_3"),
-        ("Conclusion", "conclusion"),
+        ("Introduction", intro_paragraphs),               # déjà traité ci-dessus
+        ("P1", data.get("partie_1")),
+        ("Transition 1", data.get("transition_1")),
+        ("P2", data.get("partie_2")),
+        ("Transition 2", data.get("transition_2")),
+        ("P3", data.get("partie_3")),
+        ("Conclusion", data.get("conclusion")),
     ]
 
     blocks: List[Tuple[str, List[str]]] = []
-    for label, key in blocks_order:
-        raw = data.get(key)
-        if raw and isinstance(raw, str) and raw.strip():
-            paragraphs = md_to_plain_paragraphs(raw)
-            if paragraphs:
-                blocks.append((label, paragraphs))
+    for label, raw in blocks_order:
+        if isinstance(raw, list):
+            paragraphs = [p for p in raw if isinstance(p, str) and p.strip()]
+        else:
+            paragraphs = md_to_plain_paragraphs(raw) if (isinstance(raw, str) and raw.strip()) else []
+        if paragraphs:
+            blocks.append((label, paragraphs))
 
     return {"header": header, "blocks": blocks}
+
 
 # ---------- Export Markdown ----------
 
@@ -112,27 +136,37 @@ def export_markdown(struct: Dict, md_path: Path) -> None:
     lines.append("</div>")
     lines.append("")
 
+    INDENT_HTML = "&emsp;&emsp;"  # double cadratin pour simuler un retrait
+
     # Corps : chaque bloc avec un interligne
     for label, paragraphs in struct["blocks"]:
         lines.append(f"## {label}")
         lines.append("")
-        # On laisse le markdown d’origine tel quel (les * resteront italiques)
         for p in paragraphs:
-            lines.append(p)
+            # Ajoute un retrait visuel au début de chaque paragraphe
+            lines.append(f"{INDENT_HTML}{p}")
             lines.append("")  # saut de ligne
         lines.append("")  # séparation de blocs
 
     md_path.write_text("\n".join(lines).strip() + "\n", encoding="utf-8")
 
+
 # ---------- Export DOCX ----------
 
 def export_docx(struct: Dict, docx_path: Path) -> None:
-    from docx import Document
-    from docx.shared import Pt
-    from docx.enum.text import WD_ALIGN_PARAGRAPH
+    try:
+        from docx import Document
+        from docx.shared import Pt, Cm
+        from docx.enum.text import WD_ALIGN_PARAGRAPH
+    except ModuleNotFoundError:
+        raise ImportError(
+            "The 'python-docx' package is required. Install it with:\n"
+            "    pip install python-docx"
+        )
+
+    FIRST_LINE_CM = 0.75  # retrait de première ligne (~0,75 cm)
 
     doc = Document()
-
     H = struct["header"]
 
     # Sujet (gros, centré)
@@ -164,7 +198,7 @@ def export_docx(struct: Dict, docx_path: Path) -> None:
 
     # Corps
     for label, paragraphs in struct["blocks"]:
-        # Titre de section
+        # Titre de section (sans retrait)
         h = doc.add_paragraph()
         hr = h.add_run(label)
         hr.bold = True
@@ -173,12 +207,14 @@ def export_docx(struct: Dict, docx_path: Path) -> None:
         for para in paragraphs:
             para = normalize_text(para)
             p = doc.add_paragraph()
-            # on segmente par lignes pour garder les sauts internes éventuels
+            p.paragraph_format.first_line_indent = Cm(FIRST_LINE_CM)
+
+            # Garder les sauts internes éventuels
             for i, line in enumerate(para.split("\n")):
                 if i > 0:
                     p.add_run("\n")
-                for text, style in parse_inline_md(line):
-                    r = p.add_run(text)
+                for text_frag, style in parse_inline_md(line):
+                    r = p.add_run(text_frag)
                     if style == "i":
                         r.italic = True
                     elif style == "b":
@@ -196,6 +232,8 @@ def export_docx(struct: Dict, docx_path: Path) -> None:
 def export_odt(struct: Dict, odt_path: Path) -> None:
     from odf.opendocument import OpenDocumentText
     from odf import text, style
+
+    FIRST_LINE_CM = "0.75cm"  # retrait première ligne
 
     doc = OpenDocumentText()
 
@@ -219,7 +257,9 @@ def export_odt(struct: Dict, odt_path: Path) -> None:
     hsec.addElement(style.TextProperties(attributes={"fontsize": "14pt", "fontweight": "bold"}))
     doc.styles.addElement(hsec)
 
+    # Corps des paragraphes avec retrait de première ligne
     pstyle = style.Style(name="P", family="paragraph")
+    pstyle.addElement(style.ParagraphProperties(attributes={"textindent": FIRST_LINE_CM}))
     pstyle.addElement(style.TextProperties(attributes={"fontsize": "11pt"}))
     doc.styles.addElement(pstyle)
 
@@ -237,13 +277,11 @@ def export_odt(struct: Dict, odt_path: Path) -> None:
 
     H = struct["header"]
 
-    # Sujet
+    # Sujet / Concours / Note (non indentés)
     if H.get("sujet"):
         doc.text.addElement(text.P(stylename=h1, text=H["sujet"]))
-    # Concours
     if H.get("concours"):
         doc.text.addElement(text.P(stylename=h2, text=H["concours"]))
-    # Note
     if H.get("note"):
         doc.text.addElement(text.P(stylename=h3, text=f"Note : {H['note']}"))
 
@@ -255,7 +293,6 @@ def export_odt(struct: Dict, odt_path: Path) -> None:
         doc.text.addElement(text.P(stylename=hsec, text=label))
         for para in paragraphs:
             para = normalize_text(para)
-            # On crée un paragraphe et on y ajoute des spans pour i/b/s
             p = text.P(stylename=pstyle)
             for i, line in enumerate(para.split("\n")):
                 if i > 0:
@@ -271,10 +308,10 @@ def export_odt(struct: Dict, odt_path: Path) -> None:
                         span = text.Span(text=frag)
                     p.addElement(span)
             doc.text.addElement(p)
-        # Saut entre blocs
         doc.text.addElement(text.P(text=""))
 
     doc.save(str(odt_path))
+
 
 # ---------- Point d’entrée ----------
 
