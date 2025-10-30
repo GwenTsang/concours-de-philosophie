@@ -31,5 +31,10 @@ download(GITHUB_URL)
 ```
 ### Exportez en DOCX et ODT :
 ```
-!python JSONtoDOCXorODT.py "PATH_JSON" -o "/content"
+!python JSONtoDOCXorODT.py "/content/le%20commerce%20des%20corps" -o "/content" -rawtext
+```
+
+Si jamais vous souhaitez conserver les balises :
+```
+!python JSONtoDOCXorODT.py "/content/le%20commerce%20des%20corps" -o "/content"
 ```
