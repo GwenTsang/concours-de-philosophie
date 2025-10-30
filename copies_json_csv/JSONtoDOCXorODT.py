@@ -15,9 +15,11 @@ def normalize_text(s: Optional[str]) -> str:
     s = s.replace("\\<\\<", "«").replace("\\>\\>", "»")
     # Double backslashes résiduels
     s = s.replace("\\\"", "\"")
-    # Réduit espaces superflus autour de sauts de ligne
+    # Réduit espaces superflus autour de sauts de ligne (ne touche pas au début de ligne)
     s = re.sub(r"[ \t]+\n", "\n", s)
-    return s.strip()
+    # IMPORTANT : ne pas strip() pour conserver les tabulations de début de paragraphe
+    # On retire uniquement d'éventuels retours à la ligne superflus en bordure
+    return s.strip("\n")
 
 Token = Tuple[str, Optional[str]]  # (texte, style) style in {None, 'b','i','s'}
 
@@ -52,13 +54,29 @@ def parse_inline_md(text: str) -> List[Token]:
 
 def md_to_plain_paragraphs(s: str) -> List[str]:
     """
-    On conserve les paragraphes (lignes vides = séparateurs).
+    On conserve les paragraphes (lignes vides = séparateurs) et
+    SURTOUT les tabulations de début de paragraphe.
     """
     s = normalize_text(s)
+    if not s:
+        return []
     # Découpe par doubles sauts
-    blocks = re.split(r"\n\s*\n", s) if s else []
-    # Nettoie chaque bloc
-    return [b.strip() for b in blocks if b.strip()]
+    blocks = re.split(r"\n\s*\n", s)
+
+    clean_blocks: List[str] = []
+    for b in blocks:
+        if not b:
+            continue
+        # Supprime uniquement les \n superflus en bordure,
+        # conserve le leading whitespace (dont \t) à l'intérieur.
+        b = re.sub(r"^\n+", "", b)
+        b = re.sub(r"\n+$", "", b)
+        # Supprime les espaces de fin de ligne, pas le début
+        lines = [ln.rstrip() for ln in b.split("\n")]
+        block = "\n".join(lines)
+        if block.strip():  # garde les blocs non vides
+            clean_blocks.append(block)
+    return clean_blocks
 
 # ---------- Extraction ciblée pour ton schéma ----------
 
@@ -71,9 +89,9 @@ def extract_structure(data: Dict) -> Dict:
 
     NB:
     - 'annonce_du_plan' n'est plus une section séparée ; si présent, son contenu
-      est fusionné à la fin de l'introduction, sans saut de ligne, précédé d'un retrait visuel.
+      est fusionné à la fin de l'introduction, AVEC saut de ligne + Tab d'alinéa.
     """
-    INDENT_MARK = "\u2003\u2003"  # deux espaces cadratins (em spaces) pour un retrait clair
+    TAB_INDENT = "\t"  # Tabulation explicite pour l’alinéa demandé
 
     header = {
         "concours": " ".join([v for v in [data.get("niveau"), data.get("annee")] if v]),
@@ -86,17 +104,17 @@ def extract_structure(data: Dict) -> Dict:
     annonce_raw = data.get("annonce_du_plan")
 
     intro_paragraphs: List[str] = []
-    if intro_raw and isinstance(intro_raw, str) and intro_raw.strip():
+    if isinstance(intro_raw, str) and intro_raw.strip():
         intro_paragraphs = md_to_plain_paragraphs(intro_raw)
 
-    if annonce_raw and isinstance(annonce_raw, str) and annonce_raw.strip():
-        plan_txt = normalize_text(annonce_raw).strip()
+    if isinstance(annonce_raw, str) and annonce_raw.strip():
+        plan_txt = normalize_text(annonce_raw).strip("\n")
         if intro_paragraphs:
-            # Fusion : pas de saut de ligne, on ajoute un retrait au début de l’annonce
-            intro_paragraphs[-1] = intro_paragraphs[-1].rstrip() + f" {INDENT_MARK}{plan_txt}"
+            # Fusion : SAUT DE LIGNE + Tabulation avant l’annonce
+            intro_paragraphs[-1] = intro_paragraphs[-1].rstrip() + f"\n{TAB_INDENT}{plan_txt}"
         else:
-            # S’il n’y a pas d’introduction, on crée un paragraphe unique avec l’annonce
-            intro_paragraphs = [f"{INDENT_MARK}{plan_txt}"]
+            # S’il n’y a pas d’introduction, on crée un paragraphe unique avec Tab initiale
+            intro_paragraphs = [f"{TAB_INDENT}{plan_txt}"]
 
     blocks_order = [
         ("Introduction", intro_paragraphs),               # déjà traité ci-dessus
@@ -119,7 +137,6 @@ def extract_structure(data: Dict) -> Dict:
 
     return {"header": header, "blocks": blocks}
 
-
 # ---------- Export Markdown ----------
 
 def export_markdown(struct: Dict, md_path: Path) -> None:
@@ -136,22 +153,51 @@ def export_markdown(struct: Dict, md_path: Path) -> None:
     lines.append("</div>")
     lines.append("")
 
-    INDENT_HTML = "&emsp;&emsp;"  # double cadratin pour simuler un retrait
-
-    # Corps : chaque bloc avec un interligne
+    # Corps
     for label, paragraphs in struct["blocks"]:
-        lines.append(f"## {label}")
-        lines.append("")
+        is_transition = bool(re.match(r"Transition\s*\d+", label, flags=re.IGNORECASE))
+        if not is_transition:
+            lines.append(f"## {label}")
+            lines.append("")
+        else:
+            # Pas de titre pour les transitions (pas de gros/gras), juste des sauts de ligne
+            lines.append("")
+
         for p in paragraphs:
-            # Ajoute un retrait visuel au début de chaque paragraphe
-            lines.append(f"{INDENT_HTML}{p}")
+            # On écrit le paragraphe tel quel pour conserver les Tab en début
+            lines.append(p)
             lines.append("")  # saut de ligne
-        lines.append("")  # séparation de blocs
+
+        # séparation douce entre blocs
+        lines.append("")
 
     md_path.write_text("\n".join(lines).strip() + "\n", encoding="utf-8")
 
-
 # ---------- Export DOCX ----------
+
+def _docx_add_line_with_leading_tabs(paragraph, line: str, style_key: Optional[str]):
+    """
+    Ajoute une ligne dans un paragraphe DOCX en respectant les tabulations initiales,
+    puis le texte (avec style éventuel).
+    """
+    # Compte les tabs de tête
+    m = re.match(r"^\t+", line)
+    tabs = len(m.group(0)) if m else 0
+    content = line[tabs:]
+
+    # Ajoute les tabs comme runs séparés (sans style)
+    if tabs:
+        for _ in range(tabs):
+            paragraph.add_run("\t")
+
+    # Ajoute le contenu stylé
+    run = paragraph.add_run(content)
+    if style_key == "i":
+        run.italic = True
+    elif style_key == "b":
+        run.bold = True
+    elif style_key == "s":
+        run.font.strike = True
 
 def export_docx(struct: Dict, docx_path: Path) -> None:
     try:
@@ -164,7 +210,7 @@ def export_docx(struct: Dict, docx_path: Path) -> None:
             "    pip install python-docx"
         )
 
-    FIRST_LINE_CM = 0.75  # retrait de première ligne (~0,75 cm)
+    FIRST_LINE_CM = 0.75  # on conserve le retrait de première ligne existant
 
     doc = Document()
     H = struct["header"]
@@ -198,29 +244,43 @@ def export_docx(struct: Dict, docx_path: Path) -> None:
 
     # Corps
     for label, paragraphs in struct["blocks"]:
-        # Titre de section (sans retrait)
-        h = doc.add_paragraph()
-        hr = h.add_run(label)
-        hr.bold = True
-        hr.font.size = Pt(14)
+        is_transition = bool(re.match(r"Transition\s*\d+", label, flags=re.IGNORECASE))
+
+        # Titre de section (sans retrait) sauf pour les transitions
+        if not is_transition:
+            h = doc.add_paragraph()
+            hr = h.add_run(label)
+            hr.bold = True
+            hr.font.size = Pt(14)
 
         for para in paragraphs:
             para = normalize_text(para)
             p = doc.add_paragraph()
             p.paragraph_format.first_line_indent = Cm(FIRST_LINE_CM)
 
-            # Garder les sauts internes éventuels
+            # Respecte les sauts internes et les tabs de tête
             for i, line in enumerate(para.split("\n")):
                 if i > 0:
                     p.add_run("\n")
-                for text_frag, style in parse_inline_md(line):
-                    r = p.add_run(text_frag)
-                    if style == "i":
-                        r.italic = True
-                    elif style == "b":
-                        r.bold = True
-                    elif style == "s":
-                        r.font.strike = True
+                # On parse le markdown inline par ligne
+                tokens = parse_inline_md(line)
+                if not tokens:
+                    _docx_add_line_with_leading_tabs(p, line, None)
+                else:
+                    # Si le 1er token a des tabs en tête, on les respecte,
+                    # puis on ajoute les runs suivants normalement.
+                    # On traite token par token.
+                    for j, (text_frag, style) in enumerate(tokens):
+                        if j == 0:
+                            _docx_add_line_with_leading_tabs(p, text_frag, style)
+                        else:
+                            r = p.add_run(text_frag)
+                            if style == "i":
+                                r.italic = True
+                            elif style == "b":
+                                r.bold = True
+                            elif style == "s":
+                                r.font.strike = True
 
         # Saut de ligne entre blocs
         doc.add_paragraph("")
@@ -290,14 +350,32 @@ def export_odt(struct: Dict, odt_path: Path) -> None:
 
     # Sections
     for label, paragraphs in struct["blocks"]:
-        doc.text.addElement(text.P(stylename=hsec, text=label))
+        is_transition = bool(re.match(r"Transition\s*\d+", label, flags=re.IGNORECASE))
+        if not is_transition:
+            doc.text.addElement(text.P(stylename=hsec, text=label))
+        else:
+            # pas de titre pour la transition
+            doc.text.addElement(text.P(text=""))
+
         for para in paragraphs:
             para = normalize_text(para)
-            p = text.P(stylename=pstyle)
+            # Pour conserver les tabs de tête, on les traduit en text:tab
             for i, line in enumerate(para.split("\n")):
+                p = text.P(stylename=pstyle)
                 if i > 0:
-                    p.addElement(text.LineBreak())
-                for frag, style_key in parse_inline_md(line):
+                    # Ligne suivante : on insère un saut de ligne visuel
+                    # (dans ODT, un nouveau P suffit)
+                    pass
+                # Gère les tabs de tête
+                m = re.match(r"^\t+", line)
+                tabs = len(m.group(0)) if m else 0
+                rest = line[tabs:]
+
+                for _ in range(tabs):
+                    p.addElement(text.Tab())
+
+                # Traite le markdown inline pour le reste
+                for frag, style_key in parse_inline_md(rest):
                     if style_key == "i":
                         span = text.Span(stylename=ist, text=frag)
                     elif style_key == "b":
@@ -307,11 +385,13 @@ def export_odt(struct: Dict, odt_path: Path) -> None:
                     else:
                         span = text.Span(text=frag)
                     p.addElement(span)
-            doc.text.addElement(p)
+
+                doc.text.addElement(p)
+
+        # séparation
         doc.text.addElement(text.P(text=""))
 
     doc.save(str(odt_path))
-
 
 # ---------- Point d’entrée ----------
 
