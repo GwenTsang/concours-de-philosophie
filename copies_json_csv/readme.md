@@ -1,6 +1,16 @@
-Je fais en sorte que ces fichiers soient les plus propres possibles.
-Ils sont au format Markdown, il faut éventuellement opérer de légers nettoyages pour enlever certains caractères spéciaux.
-Test :
+
+
+Nous faisons en sorte que ces fichiers JSON soient les plus propres possibles.
+Le contenu textuel est au format Markdown, il faut éventuellement opérer de légers nettoyages pour enlever certains caractères spéciaux.
+
+## Pour convertir un JSON en DOCX ou en ODT :
+
+Requirements :
+```
+!pip install python-docx odfpy
+```
+
+### Téléchargez l'un des fichiers spécifiques avec :
 
 ```
 import requests
@@ -19,7 +29,7 @@ def download(u):
 
 download(GITHUB_URL)
 ```
-Ensuite l'exportation peut se faire avec :
+### Exportez en DOCX et ODT :
 ```
 !python JSONtoDOCXorODT.py "PATH_JSON" -o "/content"
 ```
