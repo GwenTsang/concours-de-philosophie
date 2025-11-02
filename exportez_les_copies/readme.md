@@ -14,3 +14,6 @@
 pip install python-docx odf
 ```
 
+```python
+!python /content/copies_local/copies_JSON/export.py
+```
