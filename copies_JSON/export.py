@@ -222,7 +222,20 @@ def export_odt(struct: Dict, odt_path: Path, rawtext: bool = False) -> None:
 
 # --------- Batch dossier uniquement ---------
 
-def export_folder(folder: Path, out_dir: Path, rawtext: bool = False, recursive: bool = False):
+def export_folder(
+    folder: Path,
+    out_dir: Path,
+    rawtext: bool = True,                 # <-- par défaut rawtext = True
+    recursive: bool = False,
+    formats: Optional[List[str]] = None   # <-- formats à exporter
+):
+    """
+    formats: liste parmi ['md', 'docx', 'odt'].
+             None -> défaut: ['docx'].
+    """
+    if formats is None:
+        formats = ["docx"]               # <-- par défaut: DOCX seul
+
     if not folder.is_dir():
         raise NotADirectoryError(f"« {folder} » n'est pas un dossier existant.")
     out_dir.mkdir(parents=True, exist_ok=True)
@@ -240,9 +253,14 @@ def export_folder(folder: Path, out_dir: Path, rawtext: bool = False, recursive:
             struct = extract_structure(data)
             base = (data.get("sujet") or jp.stem)
             safe = re.sub(r"[^\w\-]+", "_", base).strip("_") or "dissertation"
-            export_markdown(struct, out_dir / f"{safe}.md", rawtext=rawtext)
-            export_docx(struct, out_dir / f"{safe}.docx", rawtext=rawtext)
-            export_odt(struct, out_dir / f"{safe}.odt", rawtext=rawtext)
+
+            if "md" in formats:
+                export_markdown(struct, out_dir / f"{safe}.md", rawtext=rawtext)
+            if "docx" in formats:
+                export_docx(struct, out_dir / f"{safe}.docx", rawtext=rawtext)
+            if "odt" in formats:
+                export_odt(struct, out_dir / f"{safe}.odt", rawtext=rawtext)
+
             print(f"OK: {jp}")
         except Exception as e:
             print(f"ERREUR: {jp} -> {e}")
@@ -251,12 +269,11 @@ def export_folder(folder: Path, out_dir: Path, rawtext: bool = False, recursive:
 
 if __name__ == "__main__":
     import argparse
-    script_dir = Path(__file__).resolve().parent  # <-- dossier du script
+    script_dir = Path(__file__).resolve().parent
 
     ap = argparse.ArgumentParser(
         description="Exporter (MD/DOCX/ODT) des dissertations CAPES depuis un dossier de JSON."
     )
-    # 'folder' devient optionnel; par défaut: dossier du script
     ap.add_argument(
         "folder",
         nargs="?",
@@ -265,13 +282,30 @@ if __name__ == "__main__":
     )
     ap.add_argument("-o", "--out-dir", default=".", help="Dossier de sortie")
     ap.add_argument("--recursive", action="store_true", help="Inclure les sous-dossiers")
-    ap.add_argument("-rawtext", "--rawtext", action="store_true",
-                    help="Sans balises de sections (Intro, I, II, III, Conclusion)")
+
+    # par défaut: rawtext=True ; possibilité de désactiver
+    ap.add_argument("--no-rawtext", action="store_true", help="Désactive le mode rawtext")
+
+    # choix des formats à activer en plus du défaut
+    ap.add_argument("--md", action="store_true", help="Exporter aussi en Markdown")
+    ap.add_argument("--odt", action="store_true", help="Exporter aussi en ODT")
+    ap.add_argument("--docx", action="store_true", help="Forcer l'export DOCX (inutile: actif par défaut)")
+
     args = ap.parse_args()
+
+    # Construire la liste des formats demandés.
+    # Si aucun drapeau de format n'est donné, on garde le défaut ['docx'].
+    formats = []
+    if args.md: formats.append("md")
+    if args.docx: formats.append("docx")
+    if args.odt: formats.append("odt")
+    if not formats:
+        formats = ["docx"]  # défaut
 
     export_folder(
         Path(args.folder),
         Path(args.out_dir),
-        rawtext=args.rawtext,
-        recursive=args.recursive
+        rawtext=not args.no_rawtext,   # True par défaut
+        recursive=args.recursive,
+        formats=formats
     )
