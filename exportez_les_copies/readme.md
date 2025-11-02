@@ -17,3 +17,13 @@ pip install python-docx odf
 ```python
 !python /content/copies_local/copies_JSON/export.py
 ```
+Par défaut toutes les copies sont exportées en DOCX. Vous pouvez obtenir **DOCX + MD** en faisant :
+
+```python
+python /content/copies_local/copies_JSON/export.py --md
+```
+
+ou **format ODT** (LibreOffice) :
+```
+python /content/copies_local/copies_JSON/export.py --odt
+```
