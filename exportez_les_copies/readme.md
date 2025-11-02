@@ -10,3 +10,7 @@
   -o copies_local
 ```
 
+```python
+pip install python-docx odf
+```
+
