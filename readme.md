@@ -8,13 +8,13 @@ Les dissertations qui suivent ont été transcrites mot pour mot à partir des p
 | **Capes externe 2024** Écrit 1 | [L'avenir est-il l'affaire de la pensée ?](<copies-de-concours/dissertations_markdown_clean/L'avenir est-il l'affaire de la pensée _ (CAPES 2024 - note _ 20).md>) | 20 | 8.69 | 12.31 |
 | **Capes externe 2021** Écrit 1 | [Dire, est-ce autre chose que vouloir dire ?](<copies-de-concours/dissertations_markdown_clean/Dire est-ce autre chose que vouloir dire _ (CAPES 2021 - note _ 15,5).md>) | 15,5 | 8.38 | 12.17 |
 | **Capes 2020** | [La paix est-elle le plus grand des biens ?](<copies-de-concours/dissertations_markdown_clean/La paix est-elle le plus grand des biens _ (CAPES 2020 - note _ 14,5).md>) | 14,5 |  |  |
-| **Capes externe 2025** | [L'idée de perfection]() | 19 |  |  |
-| **Capes externe 2025** | [L'idée de perfection]() | 16 |  |  |
-| **Agrégation externe 2011** 1ère compo. | [La force des idées]() | 10 | 5.86 | 8.71 |
-| **Agrégation externe 2011** 2ème compo. | [D'où vient que l'histoire soit autre chose qu'un chaos ?]() | 10 | 6.5 | 9.66 |
-| **Agrégation externe 2017** 2ème compo. | [Habiter le monde]() | 16 | 7.15 | 10.95 |
+| **Capes externe 2025** | [L'idée de perfection](<copies-de-concours/dissertations_markdown_clean/L_idée_de_perfection_note_19.md>) | 19 |  |  |
+| **Capes externe 2025** | [L'idée de perfection](<copies-de-concours/dissertations_markdown_clean/L_idée_de_perfection_note_16.md>) | 16 |  |  |
+| **Agrégation externe 2011** 1ère compo. | [La force des idées](<copies-de-concours/dissertations_markdown_clean/La force des idées (AGREG 2011 - note _ 10).md>) | 10 | 5.86 | 8.71 |
+| **Agrégation externe 2011** 2ème compo. | [D'où vient que l'histoire soit autre chose qu'un chaos ?](<copies-de-concours/dissertations_markdown_clean/D'où vient que l'histoire soit autre chose qu'un chaos  (AGREG 2011 - note _ 10).md>) | 10 | 6.5 | 9.66 |
+| **Agrégation externe 2017** 2ème compo. | [Habiter le monde](<copies-de-concours/dissertations_markdown_clean/Habiter le monde (AGREG 2017 - note _ 16).md>) | 16 | 7.15 | 10.95 |
 | **Agrégation externe 2018** 1ère compo. | [Langage et réalité](<copies-de-concours/dissertations_markdown_clean/Langage et réalité (AGREG externe 2018 - note _ 19).md>) | 19 | 7.07 | 10.38 |
-| **Agrégation externe 2018** 1ère compo. | [La simplicité]() | 12 | 7.01 | 10.42 |
+| **Agrégation externe 2018** 1ère compo. | [La simplicité](<copies-de-concours/dissertations_markdown_clean/La simplicité (AGREG 2018 - note _ 12).md>) | 12 | 7.01 | 10.42 |
 | **Agrégation 2020** | [Le vrai et le réel](<copies-de-concours/dissertations_markdown_clean/Le vrai et le réel (AGREG 2020 - note _ 13,5).md>) | 13,5 |  |  |
 | **Agrégation interne 2020** | [Le vrai et le réel](<copies-de-concours/dissertations_markdown_clean/Le vrai et le réel (Agreg interne 2020 - note : 14).md>) | 14 |  |  |
 | **Agrégation externe 2021** 1ère compo. | [Que peut le droit ?](<copies-de-concours/dissertations_markdown_clean/Que peut le droit _ (AGREG 2021 - note 18).md>) | 18 | 7.61 | 11.08 |
