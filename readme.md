@@ -33,7 +33,6 @@ Les copies qui suivent ont été transcrites mot pour mot à partir des photocop
 | Agrégation externe 2025 | [Avoir de la chance](<copies-de-concours/dissertations_markdown_raw/Avoir de la chance (Agrégation Externe 2025 -note : 8,5).md>) | 8,5 |  |  |
 | Agrégation externe 2025 <br>2ème compo. | [Avoir de la chance](<copies-de-concours/dissertations_markdown_raw/Avoir_de_la_chance (Agrégation 2025 externe composition 2 - note : 9).md>) | 9 |  |  |
 | Agrégation externe 2025 <br>1ère compo. | [Le savoir est-il désirable ?](<copies-de-concours/dissertations_markdown_raw/Le savoir est-il désirable (Agrégation 2025 - note 11,5).md>) | 11,5 |  |  |
-| Agrégation externe | [Commentaire de Diderot](<copies-de-concours/commentaires_markdown_clean/Commentaire de Diderot (Agrégation externe - note _ 10).md>) | 10 |  |  |
 | Agrégation externe 2022 <br>2ème composition | [L usage des principes](<copies-de-concours/Résultats OCR/Dissertations/L_usage des principes (Agrégation - note _ 13)/L_usage des principes (Agrégation - note _ 13).md>) | 13 |  |  |
 | Prépa agrégation | [Histoire et violence](<copies-de-concours/dissertations_markdown_clean/Histoire et violence (Prépa Agrégation - note _ 18,5).md>) | 18,5 |  |  |
 | Prépa agrégation | [La servitude volontaire](<copies-de-concours/dissertations_markdown_clean/La servitude volontaire (prépa Agrégation - note _ 15).md>) | 15 |  |  |
@@ -56,6 +55,7 @@ Les copies qui suivent ont été transcrites mot pour mot à partir des photocop
 | Agrégation 2022 | [Commentaire de Mill](<copies-de-concours/Résultats OCR/Commentaires/Commentaire de Mill (Agrégation 2022 - note _ 19)/Commentaire de Mill (Agrégation 2022 - note _ 19).md>) | 19 |  |  |
 | Agrégation externe 2022 | [Commentaire du Leviathan](<copies-de-concours/Résultats OCR/Commentaires/Commentaire du Leviathan (Agrégation externe 2022 - note _ 13)/Commentaire du Leviathan (Agrégation externe 2022 - note _ 13).md>) | 13 |  |  |
 | Agrégation interne 2021 | [Commentaire de Foucault - Naissance de la clinique](<copies-de-concours/Résultats OCR/Commentaires/Commentaire de Foucault - Naissance de la clinique (Agrégation interne 2021 - note 12)/Commentaire de Foucault - Naissance de la clinique (Agrégation interne 2021 - note 12).md>) | 12 |  |  |
+| Agrégation externe | [Commentaire de Diderot](<copies-de-concours/commentaires_markdown_clean/Commentaire de Diderot (Agrégation externe - note _ 10).md>) | 10 |  |  |
 
 
 
