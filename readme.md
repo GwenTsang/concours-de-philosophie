@@ -10,21 +10,21 @@ Les dissertations qui suivent ont été transcrites mot pour mot à partir des p
 | **Capes 2020** | [La paix est-elle le plus grand des biens ?](<copies-de-concours/dissertations_markdown_clean/La paix est-elle le plus grand des biens _ (CAPES 2020 - note _ 14,5).md>) | 14,5 |  |  |
 | **Capes externe 2025** | [L'idée de perfection](<copies-de-concours/dissertations_markdown_clean/L_idée_de_perfection_note_19.md>) | 19 |  |  |
 | **Capes externe 2025** | [L'idée de perfection](<copies-de-concours/dissertations_markdown_clean/L_idée_de_perfection_note_16.md>) | 16 |  |  |
-| **Agrégation externe 2011** 1ère compo. | [La force des idées](<copies-de-concours/dissertations_markdown_clean/La force des idées (Agrégation 2011 - note _ 10).md>) | 10 | 5.86 | 8.71 |
+| **Agrégation externe 2011** <br>1ère compo. | [La force des idées](<copies-de-concours/dissertations_markdown_clean/La force des idées (Agrégation 2011 - note _ 10).md>) | 10 | 5.86 | 8.71 |
 | **Agrégation externe 2011** 2ème compo. | [D'où vient que l'histoire soit autre chose qu'un chaos ?](<copies-de-concours/dissertations_markdown_clean/D'où vient que l'histoire soit autre chose qu'un chaos  (Agrégation 2011 - note _ 10).md>) | 10 | 6.5 | 9.66 |
 | **Agrégation externe 2017** 2ème compo. | [Habiter le monde](<copies-de-concours/dissertations_markdown_clean/Habiter le monde (Agrégation 2017 - note _ 16).md>) | 16 | 7.15 | 10.95 |
-| **Agrégation externe 2018** 1ère compo. | [Langage et réalité](<copies-de-concours/dissertations_markdown_clean/Langage et réalité (Agrégation externe 2018 - note _ 19).md>) | 19 | 7.07 | 10.38 |
-| **Agrégation externe 2018** 1ère compo. | [La simplicité](<copies-de-concours/dissertations_markdown_clean/La simplicité (Agrégation 2018 - note _ 12).md>) | 12 | 7.01 | 10.42 |
+| **Agrégation externe 2018** <br>1ère compo. | [Langage et réalité](<copies-de-concours/dissertations_markdown_clean/Langage et réalité (Agrégation externe 2018 - note _ 19).md>) | 19 | 7.07 | 10.38 |
+| **Agrégation externe 2018** <br>1ère compo. | [La simplicité](<copies-de-concours/dissertations_markdown_clean/La simplicité (Agrégation 2018 - note _ 12).md>) | 12 | 7.01 | 10.42 |
 | **Agrégation 2020** | [Le vrai et le réel](<copies-de-concours/dissertations_markdown_clean/Le vrai et le réel (Agrégation 2020 - note _ 13,5).md>) | 13,5 |  |  |
 | **Agrégation interne 2020** | [Le vrai et le réel](<copies-de-concours/dissertations_markdown_clean/Le vrai et le réel (Agrégation interne 2020 - note : 14).md>) | 14 |  |  |
-| **Agrégation externe 2021** 1ère compo. | [Que peut le droit ?](<copies-de-concours/dissertations_markdown_clean/Que peut le droit _ (Agrégation 2021 - note 18).md>) | 18 | 7.61 | 11.08 |
+| **Agrégation externe 2021** <br>1ère compo. | [Que peut le droit ?](<copies-de-concours/dissertations_markdown_clean/Que peut le droit _ (Agrégation 2021 - note 18).md>) | 18 | 7.61 | 11.08 |
 | **Agrégation externe 2021** 2ème compo. | [Les choses ont-elles quelque chose en commun ?]() | 15,5 | 8.24 | 12.06 |
-| **Agrégation interne 2022** 1ère compo. | [Le bonheur est-il affaire de hasard ou de nécessité ?](<copies-de-concours/dissertations_markdown_clean/Le bonheur est-il affaire de hasard ou de nécessité _ (Agrégation 2022 - note _ 15,5).md>) | 15,5 | 9.04 | 10.66 |
-| **Agrégation interne 2022** 1ère compo. | [Le bonheur est-il affaire de hasard ou de nécessité ?](<copies-de-concours/dissertations_markdown_clean/Le bonheur est-il affaire de hasard ou de nécessité _(Agrégation interne 2022 - note _ 16).md>) | 16 |  |  |
+| **Agrégation interne 2022** <br>1ère compo. | [Le bonheur est-il affaire de hasard ou de nécessité ?](<copies-de-concours/dissertations_markdown_clean/Le bonheur est-il affaire de hasard ou de nécessité _ (Agrégation 2022 - note _ 15,5).md>) | 15,5 | 9.04 | 10.66 |
+| **Agrégation interne 2022** <br>1ère compo. | [Le bonheur est-il affaire de hasard ou de nécessité ?](<copies-de-concours/dissertations_markdown_clean/Le bonheur est-il affaire de hasard ou de nécessité _(Agrégation interne 2022 - note _ 16).md>) | 16 |  |  |
 | **Agrégation interne 2021** | [Peut-on vivre en paix avec son inconscient ?]() | 17 |  |  |
 | **Agrégation interne 2023** | [Est-ce une chance de naître humain ?]() | 16 |  |  |
-| **Agrégation externe 2024** 1ère compo. | [L'imagination nous instruit-elle ?](<copies-de-concours/dissertations_markdown_clean/L'imagination nous instruit-elle _ (Agrégation 2024 - note _ 14).md>) | 14 | 8.99 | 11.46 |
-| **Agrégation externe 2024** 1ère compo. | [L'imagination nous instruit-elle ?]() | 10 |  |  |
+| **Agrégation externe 2024** <br>1ère compo. | [L'imagination nous instruit-elle ?](<copies-de-concours/dissertations_markdown_clean/L'imagination nous instruit-elle _ (Agrégation 2024 - note _ 14).md>) | 14 | 8.99 | 11.46 |
+| **Agrégation externe 2024** <br>1ère compo. | [L'imagination nous instruit-elle ?]() | 10 |  |  |
 | **Agrégation externe 2025** | [Avoir de la chance](<copies-de-concours/dissertations_markdown_raw/Avoir de la chance (Agrégation Externe 2025 -note : 8,5).md>) | 8,5 |  |  |
 | **Agrégation externe 2025** 2ème compo. | [Avoir de la chance](<copies-de-concours/dissertations_markdown_raw/Avoir_de_la_chance (Agrégation 2025 externe composition 2 - note : 9).md>) | 9 |  |  |
 | **Agrégation 2025** | [Le savoir est-il désirable](<copies-de-concours/dissertations_markdown_raw/Le savoir est-il désirable (Agrégation 2025 - note 11,5).md>) | 11,5 |  |  |
