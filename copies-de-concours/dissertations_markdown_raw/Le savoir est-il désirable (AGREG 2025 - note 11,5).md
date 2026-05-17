@@ -1,9 +1,4 @@
-Sujet : Le savoir est-il désirable ?
-Agrégation externe
-Année : 2025
-Composition 1
-OCR par Mistral AI
-Note : 11.5 / 20
+Le savoir est-il désirable ?
 
 Projetons-nous dans une salle de spectacle. Devant nous, un prestidigitateur extraordinaire: il fait des tours que vous m'avez jamais vus, et que vous ne vous expliquez pas, malgré toute l'expérience que vous avez en tours de magie. Vous vous retrouvez comme un enfant devant un arc-en-ciel, émerveillé par ce qu'a lui parait être un miracle de la nature, incompréhensible et beau. Posons maintenant que quelqu'un vous propose de vous expliquer le bon de magie, dénirez-vous savoir ? Spontanément, vous acceptez sans doute, et voyez le beau mystère s'envoler. Ce même "quelqu'un", décidément très savant, s'approche maintenant de l'enfant par lui expliquer les lois d'optiques encadrant et faisant apparaître l'arc-en-ciel : allez-vous l'en empêcher ? D'un côté, vous savez que le savoir nous permet d'être moins naïf et crédule, et peut même, selon la formule cartésienne, nous rendre comme maîtres et possesseurs de ces phénomènes que nous pourrons non seulement expliquer mais aussi reproduire. D'un autre côté, qu'il est charmant d'être charmé ! Il nous semble bienveillant de maintenir l'illusion, de ne pas entraver la naïveté de l'enfant qui sera perdue par Voyaux une fois les rouages de la réalité dévoilés dans leur froideur et leur implacable récente. Vous faites ainsi face à un redoutable dilemme : laisser aller la curiosité naturelle qui, amimant l'enfant face à l'arc-en-ciel, vous amimait aussi face au bon de magie et vous poursuit à vouloir comprendre même si le prix à payer était un désenchantement du monde ; au bien établi par le bien de cet enfant que le savoir n'est pas déviable, et veiller à le maintenir dans une illusion qui vous paraît plus propre à la rendre heureux et émerveillé, même si le prix à payer est l'entretien d'une ignorance voire d'une crédulité impropre à en faire un agent éclairé.
 
