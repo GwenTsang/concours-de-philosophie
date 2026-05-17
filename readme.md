@@ -27,11 +27,18 @@ Les copies qui suivent ont été transcrites mot pour mot à partir des photocop
 | Agrégation externe 2025 <br>2ème compo. | [Avoir de la chance](<copies-de-concours/dissertations_markdown_raw/Avoir_de_la_chance (Agrégation 2025 externe composition 2 - note : 9).md>) | 9 |  |  |
 | Agrégation externe 2025 <br>1ère compo. | [Le savoir est-il désirable](<copies-de-concours/dissertations_markdown_raw/Le savoir est-il désirable (Agrégation 2025 - note 11,5).md>) | 11,5 |  |  |
 | Agrégation externe | [Commentaire de Diderot](<copies-de-concours/commentaires_markdown_clean/Commentaire de Diderot (Agrégation externe - note _ 10).md>) | 10 |  |  |
-| Agrégation interne 2020 | [Explication de Nietzsche, *Le Gai savoir*, §345](<copies-de-concours/commentaires_markdown_clean/Explication de Nietzsche, Le Gai savoir §345 (Agrégation interne 2020 - note _ 17).md>) | 17 |  |  |
 | Agrégation externe 2022 <br>2ème composition | [L usage des principes](<copies-de-concours/Résultats OCR/Dissertations/L_usage des principes (Agrégation - note _ 13)/L_usage des principes (Agrégation - note _ 13).md>) | 13 |  |  |
 | Prépa agrégation | [Histoire et violence](<copies-de-concours/dissertations_markdown_clean/Histoire et violence (Prépa Agrégation - note _ 18,5).md>) | 18,5 |  |  |
 | Prépa agrégation | [La servitude volontaire](<copies-de-concours/dissertations_markdown_clean/La servitude volontaire (prépa Agrégation - note _ 15).md>) | 15 |  |  |
 | Prépa agrégation | [Les limites de l'imagination](<copies-de-concours/dissertations_markdown_clean/Les limites de l'imagination (Prépa Agrégation - note _ 15).md>) | 15 |  |  |
+
+## Commentaires agrégation :
+
+| Concours | Sujet et copie | Note | Moyenne candidats présents | Moyenne candidats admissibles |
+| :---: | :---: | :---: | :---: | :---: |
+| Agrégation externe 2019** | [Commentaire Locke, Essay, II, 21](<copies-de-concours/Résultats OCR/Commentaires/Commentaire Locke, Essay, II, 21 (Agrégation externe 2019 - note _ 16)/raw/Commentaire Locke, Essay, II, 21 (Agrégation externe 2019 - note _ 16).md>) | 16 |  |  |
+| Agrégation interne 2020 | [Explication de Nietzsche, *Le Gai savoir*, §345](<copies-de-concours/commentaires_markdown_clean/Explication de Nietzsche, Le Gai savoir §345 (Agrégation interne 2020 - note _ 17).md>) | 17 |  |  |
+
 
 ## Dissertations CAPES
 
@@ -55,11 +62,6 @@ Les copies qui suivent ont été transcrites mot pour mot à partir des photocop
 | **ENS 2024** | [La valeur de la nature](<copies-de-concours/dissertations_markdown_clean/La valeur de la nature (ENS 2024 - note : 19).md>) | 19 |  |  |
 
 
-## Commentaires agrégation :
-
-| Concours | Sujet et copie | Note | Moyenne candidats présents | Moyenne candidats admissibles |
-| :---: | :---: | :---: | :---: | :---: |
-| Agrégation externe 2019** | [Commentaire Locke, Essay, II, 21](<copies-de-concours/Résultats OCR/Commentaires/Commentaire Locke, Essay, II, 21 (Agrégation externe 2019 - note _ 16)/raw/Commentaire Locke, Essay, II, 21 (Agrégation externe 2019 - note _ 16).md>) | 16 |  |  |
 
 
 ## Commentaires CAPES :
