@@ -129,10 +129,8 @@ Les copies qui suivent ont été transcrites mot pour mot à partir des photocop
 | Agrégation externe 2020** | [Qu’apprenons-nous de nos affects](<copies-de-concours/Résultats OCR/Dissertations/Qu’apprenons-nous de nos affects _ (Agrégation externe 2020 - note _ 15)/Qu’apprenons-nous de nos affects _ (Agrégation externe 2020 - note _ 15).md>) | 15 |  |  |
 
 ## Concours INSP - ENA
-
 | Concours | Sujet et copie | Note | Moyenne candidats présents | Moyenne candidats admissibles |
 | :---: | :---: | :---: | :---: | :---: |
-|  |  |  | **candidats présents** | **candidats admissibles**  |
 | INSP Concours Interne 2022 | [L'usage de la violence](<Autres/INSP - ENA/L'usage de la violence - Épreuve d'admissibilité - Question contemporaine - INSP Concours Interne 2022 - note18.md>) | 18 |  |  |
 | ENA 2020 | [Faut-il un Etat fort](<Autres/INSP - ENA/Faut-il un Etat fort - ENA 2020 - note _ 17.md>) | 17 |  |  |
 | ENA 2019 | [La démocratie a-t-elle besoin des corps intermédiaires](<Autres/INSP - ENA/La démocratie a-t-elle besoin des corps intermédiaires (ENA 2019 - question contemporaine - note : 17,5).md>) | 17,5 |  |  |
