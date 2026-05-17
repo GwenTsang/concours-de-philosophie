@@ -4,7 +4,7 @@ Les copies qui suivent ont été transcrites mot pour mot à partir des photocop
 
 ## Dissertations d'agrégation
 
-| Concours | Sujet et copie | Note | Moyenne candidats présents | Moyenne candidats admissibles |
+| Concours | Sujet et copie | Note | Moy. candidats présents | Moy. candidats admissibles |
 | :---: | :---: | :---: | :---: | :---: |
 | Agrégation externe 2011 <br>1ère compo. | [La force des idées](<copies-de-concours/dissertations_markdown_clean/La force des idées (Agrégation 2011 - note _ 10).md>) | 10 | 5.86 | 8.71 |
 | Agrégation externe 2011 <br>2ème compo. | [D'où vient que l'histoire soit autre chose qu'un chaos ?](<copies-de-concours/dissertations_markdown_clean/D'où vient que l'histoire soit autre chose qu'un chaos  (Agrégation 2011 - note _ 10).md>) | 10 | 6.5 | 9.66 |
@@ -34,7 +34,7 @@ Les copies qui suivent ont été transcrites mot pour mot à partir des photocop
 
 ## Commentaires agrégation :
 
-| Concours | Sujet et copie | Note | Moyenne candidats présents | Moyenne candidats admissibles |
+| Concours | Sujet et copie | Note | Moy. candidats présents | Moy. candidats admissibles |
 | :---: | :---: | :---: | :---: | :---: |
 | Agrégation externe 2019 | [Commentaire Locke, Essay, II, 21](<copies-de-concours/Résultats OCR/Commentaires/Commentaire Locke, Essay, II, 21 (Agrégation externe 2019 - note _ 16)/raw/Commentaire Locke, Essay, II, 21 (Agrégation externe 2019 - note _ 16).md>) | 16 |  |  |
 | Agrégation interne 2020 | [Explication de Nietzsche, *Le Gai savoir*, §345](<copies-de-concours/commentaires_markdown_clean/Explication de Nietzsche, Le Gai savoir §345 (Agrégation interne 2020 - note _ 17).md>) | 17 |  |  |
@@ -56,7 +56,7 @@ Les copies qui suivent ont été transcrites mot pour mot à partir des photocop
 
 
 
-| Concours | Sujet et copie | Note | Moyenne candidats présents | Moyenne candidats admissibles |
+| Concours | Sujet et copie | Note | Moy. candidats présents | Moy. candidats admissibles |
 | :---: | :---: | :---: | :---: | :---: |
 | CAPES externe 2025 | [L'idée de perfection](<copies-de-concours/dissertations_markdown_clean/L_idée_de_perfection_note_19.md>) | 19 |  |  |
 | CAPES externe 2025 | [L'idée de perfection](<copies-de-concours/dissertations_markdown_clean/L_idée_de_perfection_note_16.md>) | 16 |  |  |
@@ -69,7 +69,7 @@ Les copies qui suivent ont été transcrites mot pour mot à partir des photocop
 ## Dissertations ENS
 
 
-| Concours | Sujet et copie | Note | Moyenne candidats présents | Moyenne candidats admissibles |
+| Concours | Sujet et copie | Note | Moy. candidats présents | Moy. candidats admissibles |
 | :---: | :---: | :---: | :---: | :---: |
 | **ENS 2024** | [La valeur de la nature](<copies-de-concours/dissertations_markdown_clean/La valeur de la nature (ENS 2024 - note : 19).md>) | 19 |  |  |
 | **ENS 2006** | [Peut-on dire que seuls les humains travaillent ?](<copies-de-concours/dissertations_markdown_clean/Peut-on dire que seuls les humains travaillent _ (ENS 2006 - note _ 19).md>) | 19 |  |  |
@@ -78,7 +78,7 @@ Les copies qui suivent ont été transcrites mot pour mot à partir des photocop
 
 
 ## Concours INSP - ENA
-| Concours | Sujet et copie | Note | Moyenne candidats présents | Moyenne candidats admissibles |
+| Concours | Sujet et copie | Note | Moy. candidats présents | Moy. candidats admissibles |
 | :---: | :---: | :---: | :---: | :---: |
 | INSP Concours Interne 2022 | [L'usage de la violence](<Autres/INSP - ENA/L'usage de la violence - Épreuve d'admissibilité - Question contemporaine - INSP Concours Interne 2022 - note18.md>) | 18 |  |  |
 | ENA 2020 | [Faut-il un Etat fort ?](<Autres/INSP - ENA/Faut-il un Etat fort - ENA 2020 - note _ 17.md>) | 17 |  |  |
@@ -90,14 +90,14 @@ Les copies qui suivent ont été transcrites mot pour mot à partir des photocop
 ## Commentaires CAPES :
 
 
-| Concours | Sujet et copie | Note | Moyenne candidats présents | Moyenne candidats admissibles |
+| Concours | Sujet et copie | Note | Moy. candidats présents | Moy. candidats admissibles |
 | :---: | :---: | :---: | :---: | :---: |
 | **CAPES 2019** | [Commentaire de Diderot](<copies-de-concours/Résultats OCR/Commentaires/Commentaire de Diderot (CAPES 2019 - note _ 19)/raw/Commentaire de Diderot (CAPES 2019 - note _ 19).md>) | 19 |  |  |
 | **CAPES 2019** | [Commentaire de Diderot](<copies-de-concours/Résultats OCR/Commentaires/Commentaire de Diderot - note 14/Commentaire de Diderot (note _ 14).md>) | 14 |  |  |
 
 ## à trier :
 
-| Concours | Sujet et copie | Note | Moyenne candidats présents | Moyenne candidats admissibles |
+| Concours | Sujet et copie | Note | Moy. candidats présents | Moy. candidats admissibles |
 | :---: | :---: | :---: | :---: | :---: |
 | Agrégation interne 2023** | [Est-ce une chance de naître humain ?](<copies-de-concours/Résultats OCR/Dissertations/Est-ce une chance de naître humain ? ( note 13 - température _ 0.3)/Est-ce une chance de naître humain ? ( note 13 - température _ 0.3).md>) | 13 |  |  |
 | Agrégation interne 2023** | [Est-ce une chance de naître humain ?](<copies-de-concours/Résultats OCR/Dissertations/Est-ce une chance de naître humain ? (note 16)_/Est-ce une chance de naître humain ? (note 16)_.md>) | 16 |  |  |
