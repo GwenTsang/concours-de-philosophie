@@ -25,7 +25,7 @@ Les copies qui suivent ont été transcrites mot pour mot à partir des photocop
 | Agrégation externe 2024 <br>1ère compo. | [L'imagination nous instruit-elle ?]() | 10 |  |  |
 | Agrégation externe 2025 | [Avoir de la chance](<copies-de-concours/dissertations_markdown_raw/Avoir de la chance (Agrégation Externe 2025 -note : 8,5).md>) | 8,5 |  |  |
 | Agrégation externe 2025 <br>2ème compo. | [Avoir de la chance](<copies-de-concours/dissertations_markdown_raw/Avoir_de_la_chance (Agrégation 2025 externe composition 2 - note : 9).md>) | 9 |  |  |
-| Agrégation externe 2025 <br>1ère compo. | [Le savoir est-il désirable](<copies-de-concours/dissertations_markdown_raw/Le savoir est-il désirable (Agrégation 2025 - note 11,5).md>) | 11,5 |  |  |
+| Agrégation externe 2025 <br>1ère compo. | [Le savoir est-il désirable ?](<copies-de-concours/dissertations_markdown_raw/Le savoir est-il désirable (Agrégation 2025 - note 11,5).md>) | 11,5 |  |  |
 | Agrégation externe | [Commentaire de Diderot](<copies-de-concours/commentaires_markdown_clean/Commentaire de Diderot (Agrégation externe - note _ 10).md>) | 10 |  |  |
 | Agrégation externe 2022 <br>2ème composition | [L usage des principes](<copies-de-concours/Résultats OCR/Dissertations/L_usage des principes (Agrégation - note _ 13)/L_usage des principes (Agrégation - note _ 13).md>) | 13 |  |  |
 | Prépa agrégation | [Histoire et violence](<copies-de-concours/dissertations_markdown_clean/Histoire et violence (Prépa Agrégation - note _ 18,5).md>) | 18,5 |  |  |
