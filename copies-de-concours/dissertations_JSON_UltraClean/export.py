@@ -98,26 +98,42 @@ def extract_structure(data: Dict) -> Dict:
 
 # --------- Exports ---------
 
+def _md_to_html_inline(text: str) -> str:
+    tokens = parse_inline_md(text)
+    out = []
+    for frag, style in tokens:
+        if style == "i":
+            out.append(f"<i>{frag}</i>")
+        elif style == "b":
+            out.append(f"<b>{frag}</b>")
+        elif style == "s":
+            out.append(f"<strike>{frag}</strike>")
+        else:
+            out.append(frag)
+    return "".join(out)
+
 def export_markdown(struct: Dict, md_path: Path, rawtext: bool = False) -> None:
     H = struct["header"]
     lines: List[str] = [
-        '<div align="center">',
-        f"<h1>{H['sujet']}</h1>" if H.get("sujet") else "",
-        f"<h2>{H['concours']}</h2>" if H.get("concours") else "",
-        f"<h3>Note : {H['note']}</h3>" if H.get("note") else "",
-        "</div>",
-        ""
+        '<div align="center">'
     ]
+    if H.get("sujet"): lines.append(f"<h1>{H['sujet']}</h1>")
+    if H.get("concours"): lines.append(f"<h2>{H['concours']}</h2>")
+    if H.get("note") is not None: lines.append(f"<h3>Note : {H['note']}</h3>")
+    lines.extend(["</div>", ""])
+
     for label, paragraphs in struct["blocks"]:
         is_transition = bool(re.match(r"Transition\s*\d+", label, flags=re.IGNORECASE))
         if not is_transition and not rawtext:
-            lines.append(f'<div align="center"><h2>{label}</h2></div>\n')
+            lines.append(f'<div align="center"><h2>{label}</h2></div>')
+            lines.append("")
         for p in paragraphs:
             p_clean = "\n".join(line.lstrip(" \t") for line in p.split("\n"))
+            p_clean = _md_to_html_inline(p_clean)
             lines.append(p_clean)
             lines.append("")
         lines.append("")
-    md_path.write_text("\n".join([l for l in lines if l]).strip() + "\n", encoding="utf-8")
+    md_path.write_text("\n".join(lines).strip() + "\n", encoding="utf-8")
 
 def _docx_add_line_with_leading_tabs(paragraph, line: str, style_key: Optional[str]):
     m = re.match(r"^\t+", line)
