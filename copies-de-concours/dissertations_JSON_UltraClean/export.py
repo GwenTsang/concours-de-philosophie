@@ -103,7 +103,7 @@ def _md_to_html_inline(text: str) -> str:
     out = []
     for frag, style in tokens:
         if style == "i":
-            out.append(f"<i>{frag}</i>")
+            out.append(f"<u>{frag}</u>")
         elif style == "b":
             out.append(f"<b>{frag}</b>")
         elif style == "s":
