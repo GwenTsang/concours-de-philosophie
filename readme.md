@@ -5,8 +5,8 @@ Les dissertations qui suivent ont été transcrites mot pour mot à partir des p
 |  Concours |  Sujet et copie |  Note | Moyenne  |  |
 | :---: | :---: | :---: | :---: | :---: |
 |  |  |  | **candidats présents** | **candidats admissibles**  |
-| **Capes externe 2024** Écrit 1 | [L'avenir est-il l'affaire de la pensée ?](<copies-de-concours/dissertations_markdown_clean/L'avenir est-il l'affaire de la pensée _ (CAPES 2024 - note _ 20).md>) | 20 | 8.69 | 12.31 |
-| **Capes externe 2021** Écrit 1 | [Dire, est-ce autre chose que vouloir dire ?](<copies-de-concours/dissertations_markdown_clean/Dire est-ce autre chose que vouloir dire _ (CAPES 2021 - note _ 15,5).md>) | 15,5 | 8.38 | 12.17 |
+| **Capes externe 2024** | [L'avenir est-il l'affaire de la pensée ?](<copies-de-concours/dissertations_markdown_clean/L'avenir est-il l'affaire de la pensée _ (CAPES 2024 - note _ 20).md>) | 20 | 8.69 | 12.31 |
+| **Capes externe 2021** | [Dire, est-ce autre chose que vouloir dire ?](<copies-de-concours/dissertations_markdown_clean/Dire est-ce autre chose que vouloir dire _ (CAPES 2021 - note _ 15,5).md>) | 15,5 | 8.38 | 12.17 |
 | **Capes 2020** | [La paix est-elle le plus grand des biens ?](<copies-de-concours/dissertations_markdown_clean/La paix est-elle le plus grand des biens _ (CAPES 2020 - note _ 14,5).md>) | 14,5 |  |  |
 | **Capes externe 2025** | [L'idée de perfection](<copies-de-concours/dissertations_markdown_clean/L_idée_de_perfection_note_19.md>) | 19 |  |  |
 | **Capes externe 2025** | [L'idée de perfection](<copies-de-concours/dissertations_markdown_clean/L_idée_de_perfection_note_16.md>) | 16 |  |  |
