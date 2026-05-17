@@ -2,14 +2,14 @@
 
 Les copies qui suivent ont été transcrites mot pour mot à partir des photocopies fournies par les différents concours sur demande. En tant qu'elles sont rédigées dans des conditions réelles (temps limité, salle d'examen), ces copies sont imparfaites.
 
+# Dissertations d'agrégation
+
+
+
+
 |  Concours |  Sujet et copie |  Note | Moyenne  |  |
 | :---: | :---: | :---: | :---: | :---: |
 |  |  |  | **candidats présents** | **candidats admissibles**  |
-| **Capes externe 2024** | [L'avenir est-il l'affaire de la pensée ?](<copies-de-concours/dissertations_markdown_clean/L'avenir est-il l'affaire de la pensée _ (CAPES 2024 - note _ 20).md>) | 20 | 8.69 | 12.31 |
-| **Capes externe 2021** | [Dire, est-ce autre chose que vouloir dire ?](<copies-de-concours/dissertations_markdown_clean/Dire est-ce autre chose que vouloir dire _ (CAPES 2021 - note _ 15,5).md>) | 15,5 | 8.38 | 12.17 |
-| **Capes 2020** | [La paix est-elle le plus grand des biens ?](<copies-de-concours/dissertations_markdown_clean/La paix est-elle le plus grand des biens _ (CAPES 2020 - note _ 14,5).md>) | 14,5 |  |  |
-| **Capes externe 2025** | [L'idée de perfection](<copies-de-concours/dissertations_markdown_clean/L_idée_de_perfection_note_19.md>) | 19 |  |  |
-| **Capes externe 2025** | [L'idée de perfection](<copies-de-concours/dissertations_markdown_clean/L_idée_de_perfection_note_16.md>) | 16 |  |  |
 | **Agrégation externe 2011** <br>1ère compo. | [La force des idées](<copies-de-concours/dissertations_markdown_clean/La force des idées (Agrégation 2011 - note _ 10).md>) | 10 | 5.86 | 8.71 |
 | **Agrégation externe 2011** <br>2ème compo. | [D'où vient que l'histoire soit autre chose qu'un chaos ?](<copies-de-concours/dissertations_markdown_clean/D'où vient que l'histoire soit autre chose qu'un chaos  (Agrégation 2011 - note _ 10).md>) | 10 | 6.5 | 9.66 |
 | **Agrégation externe 2017** <br>2ème compo. | [Habiter le monde](<copies-de-concours/dissertations_markdown_clean/Habiter le monde (Agrégation 2017 - note _ 16).md>) | 16 | 7.15 | 10.95 |
@@ -36,6 +36,22 @@ Les copies qui suivent ont été transcrites mot pour mot à partir des photocop
 | **Prépa agrégation** | [Les limites de l'imagination](<copies-de-concours/dissertations_markdown_clean/Les limites de l'imagination (Prépa Agrégation - note _ 15).md>) | 15 |  |  |
 | **Agrégation externe** | [Commentaire de Diderot](<copies-de-concours/commentaires_markdown_clean/Commentaire de Diderot (Agrégation externe - note _ 10).md>) | 10 |  |  |
 | **Agrégation interne 2020** | [Explication de Nietzsche, *Le Gai savoir*, §345](<copies-de-concours/commentaires_markdown_clean/Explication de Nietzsche, Le Gai savoir §345 (Agrégation interne 2020 - note _ 17).md>) | 17 |  |  |
+
+
+
+
+
+|  Concours |  Sujet et copie |  Note | Moyenne  |  |
+| :---: | :---: | :---: | :---: | :---: |
+|  |  |  | **candidats présents** | **candidats admissibles**  |
+| **Capes externe 2024** | [L'avenir est-il l'affaire de la pensée ?](<copies-de-concours/dissertations_markdown_clean/L'avenir est-il l'affaire de la pensée _ (CAPES 2024 - note _ 20).md>) | 20 | 8.69 | 12.31 |
+| **Capes externe 2021** | [Dire, est-ce autre chose que vouloir dire ?](<copies-de-concours/dissertations_markdown_clean/Dire est-ce autre chose que vouloir dire _ (CAPES 2021 - note _ 15,5).md>) | 15,5 | 8.38 | 12.17 |
+| **Capes 2020** | [La paix est-elle le plus grand des biens ?](<copies-de-concours/dissertations_markdown_clean/La paix est-elle le plus grand des biens _ (CAPES 2020 - note _ 14,5).md>) | 14,5 |  |  |
+| **Capes externe 2025** | [L'idée de perfection](<copies-de-concours/dissertations_markdown_clean/L_idée_de_perfection_note_19.md>) | 19 |  |  |
+| **Capes externe 2025** | [L'idée de perfection](<copies-de-concours/dissertations_markdown_clean/L_idée_de_perfection_note_16.md>) | 16 |  |  |
+
+
+
 
 ## Nouveaux :
 
