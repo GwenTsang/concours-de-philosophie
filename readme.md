@@ -57,7 +57,6 @@ Les copies qui suivent ont été transcrites mot pour mot à partir des photocop
 
 | Concours | Sujet et copie | Note | Moyenne candidats présents | Moyenne candidats admissibles |
 | :---: | :---: | :---: | :---: | :---: |
-
 | CAPES externe 2025 | [L'idée de perfection](<copies-de-concours/dissertations_markdown_clean/L_idée_de_perfection_note_19.md>) | 19 |  |  |
 | CAPES externe 2025 | [L'idée de perfection](<copies-de-concours/dissertations_markdown_clean/L_idée_de_perfection_note_16.md>) | 16 |  |  |
 | CAPES externe 2024 | [L'avenir est-il l'affaire de la pensée ?](<copies-de-concours/dissertations_markdown_clean/L'avenir est-il l'affaire de la pensée _ (CAPES 2024 - note _ 20).md>) | 20 | 8.69 | 12.31 |
@@ -71,9 +70,9 @@ Les copies qui suivent ont été transcrites mot pour mot à partir des photocop
 
 | Concours | Sujet et copie | Note | Moyenne candidats présents | Moyenne candidats admissibles |
 | :---: | :---: | :---: | :---: | :---: |
+| **ENS 2024** | [La valeur de la nature](<copies-de-concours/dissertations_markdown_clean/La valeur de la nature (ENS 2024 - note : 19).md>) | 19 |  |  |
 | **ENS 2006** | [Peut-on dire que seuls les humains travaillent ?](<copies-de-concours/dissertations_markdown_clean/Peut-on dire que seuls les humains travaillent _ (ENS 2006 - note _ 19).md>) | 19 |  |  |
 | **ENS 2006** | [Les sciences supposent-elles l'idée de nécessité ?](<copies-de-concours/Les sciences supposent- elles l'idée de nécessité _ (ENS 2006 - note _ 19).md>) | 19 |  |  |
-| **ENS 2024** | [La valeur de la nature](<copies-de-concours/dissertations_markdown_clean/La valeur de la nature (ENS 2024 - note : 19).md>) | 19 |  |  |
 
 
 
