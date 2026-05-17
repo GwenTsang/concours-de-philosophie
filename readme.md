@@ -54,12 +54,18 @@ Les copies qui suivent ont été transcrites mot pour mot à partir des photocop
 | **ENS 2024** | [La valeur de la nature](<copies-de-concours/dissertations_markdown_clean/La valeur de la nature (ENS 2024 - note : 19).md>) | 19 |  |  |
 
 
-## Commenta :
+## Commentaires agrégation :
 
-|  Concours |  Sujet et copie |  Note | Moyenne  |  |
+| Concours | Sujet et copie | Note | Moyenne candidats présents | Moyenne candidats admissibles |
 | :---: | :---: | :---: | :---: | :---: |
-|  |  |  | **candidats présents** | **candidats admissibles**  |
 | Agrégation externe 2019** | [Commentaire Locke, Essay, II, 21](<copies-de-concours/Résultats OCR/Commentaires/Commentaire Locke, Essay, II, 21 (Agrégation externe 2019 - note _ 16)/raw/Commentaire Locke, Essay, II, 21 (Agrégation externe 2019 - note _ 16).md>) | 16 |  |  |
+
+
+## Commentaires CAPES :
+
+
+| Concours | Sujet et copie | Note | Moyenne candidats présents | Moyenne candidats admissibles |
+| :---: | :---: | :---: | :---: | :---: |
 | **CAPES 2019** | [Commentaire de Diderot](<copies-de-concours/Résultats OCR/Commentaires/Commentaire de Diderot (CAPES 2019 - note _ 19)/raw/Commentaire de Diderot (CAPES 2019 - note _ 19).md>) | 19 |  |  |
 | **CAPES 2019** | [Commentaire de Diderot](<copies-de-concours/Résultats OCR/Commentaires/Commentaire de Diderot - note 14/Commentaire de Diderot (note _ 14).md>) | 14 |  |  |
 | Agrégation interne 2021** | [Commentaire de Foucault - Naissance de la clinique](<copies-de-concours/Résultats OCR/Commentaires/Commentaire de Foucault - Naissance de la clinique (Agrégation interne 2021 - note 12)/Commentaire de Foucault - Naissance de la clinique (Agrégation interne 2021 - note 12).md>) | 12 |  |  |
