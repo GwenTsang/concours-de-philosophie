@@ -20,11 +20,11 @@ Les dissertations qui suivent ont été transcrites mot pour mot à partir des p
 | **Agrégation externe 2021** 1ère compo. | [Que peut le droit ?](<copies-de-concours/dissertations_markdown_clean/Que peut le droit _ (Agrégation 2021 - note 18).md>) | 18 | 7.61 | 11.08 |
 | **Agrégation externe 2021** 2ème compo. | [Les choses ont-elles quelque chose en commun ?]() | 15,5 | 8.24 | 12.06 |
 | **Agrégation interne 2022** 1ère compo. | [Le bonheur est-il affaire de hasard ou de nécessité ?](<copies-de-concours/dissertations_markdown_clean/Le bonheur est-il affaire de hasard ou de nécessité _ (Agrégation 2022 - note _ 15,5).md>) | 15,5 | 9.04 | 10.66 |
-| **Agrégation interne 2022** | [Le bonheur est-il affaire de hasard ou de nécessité ?](<copies-de-concours/dissertations_markdown_clean/Le bonheur est-il affaire de hasard ou de nécessité _(Agrégation interne 2022 - note _ 16).md>) | 16 |  |  |
+| **Agrégation interne 2022** 1ère compo. | [Le bonheur est-il affaire de hasard ou de nécessité ?](<copies-de-concours/dissertations_markdown_clean/Le bonheur est-il affaire de hasard ou de nécessité _(Agrégation interne 2022 - note _ 16).md>) | 16 |  |  |
 | **Agrégation interne 2021** | [Peut-on vivre en paix avec son inconscient ?]() | 17 |  |  |
 | **Agrégation interne 2023** | [Est-ce une chance de naître humain ?]() | 16 |  |  |
 | **Agrégation externe 2024** 1ère compo. | [L'imagination nous instruit-elle ?](<copies-de-concours/dissertations_markdown_clean/L'imagination nous instruit-elle _ (Agrégation 2024 - note _ 14).md>) | 14 | 8.99 | 11.46 |
-| **Agrégation externe 2024** | [L'imagination nous instruit-elle ?]() | 10 |  |  |
+| **Agrégation externe 2024** 1ère compo. | [L'imagination nous instruit-elle ?]() | 10 |  |  |
 | **Agrégation externe 2025** | [Avoir de la chance](<copies-de-concours/dissertations_markdown_raw/Avoir de la chance (Agrégation Externe 2025 -note : 8,5).md>) | 8,5 |  |  |
 | **Agrégation externe 2025** 2ème compo. | [Avoir de la chance](<copies-de-concours/dissertations_markdown_raw/Avoir_de_la_chance (Agrégation 2025 externe composition 2 - note : 9).md>) | 9 |  |  |
 | **Agrégation 2025** | [Le savoir est-il désirable](<copies-de-concours/dissertations_markdown_raw/Le savoir est-il désirable (Agrégation 2025 - note 11,5).md>) | 11,5 |  |  |
