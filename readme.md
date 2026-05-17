@@ -4,9 +4,10 @@ Les copies qui suivent ont été transcrites mot pour mot à partir des photocop
 
 ## Dissertations d'agrégation
 
-|  Concours |  Sujet et copie |  Note | Moyenne  |  |
+| Concours | Sujet et copie | Note | Moyenne candidats présents | Moyenne candidats admissibles |
 | :---: | :---: | :---: | :---: | :---: |
-|  |  |  | **candidats présents** | **candidats admissibles**  |
+| Agrégation externe 2011 <br>1ère compo. | [La force des idées](<copies-de-concours/dissertations_markdown_clean/La force des idées (Agrégation 2011 - note _ 10).md>) | 10 | 5.86 | 8.71 |
+| Agrégation externe 2011 <br>2ème compo. | [D'où vient que l'histoire soit autre chose qu'un chaos ?](<copies-de-concours/dissertations_markdown_clean/D'où vient que l'histoire soit autre chose qu'un chaos  (Agrégation 2011 - note _ 10).md>) | 10 | 6.5 | 9.66 |
 | Agrégation externe 2011 <br>1ère compo. | [La force des idées](<copies-de-concours/dissertations_markdown_clean/La force des idées (Agrégation 2011 - note _ 10).md>) | 10 | 5.86 | 8.71 |
 | Agrégation externe 2011 <br>2ème compo. | [D'où vient que l'histoire soit autre chose qu'un chaos ?](<copies-de-concours/dissertations_markdown_clean/D'où vient que l'histoire soit autre chose qu'un chaos  (Agrégation 2011 - note _ 10).md>) | 10 | 6.5 | 9.66 |
 | Agrégation externe 2017 <br>2ème compo. | [Habiter le monde](<copies-de-concours/dissertations_markdown_clean/Habiter le monde (Agrégation 2017 - note _ 16).md>) | 16 | 7.15 | 10.95 |
