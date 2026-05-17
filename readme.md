@@ -36,8 +36,19 @@ Les copies qui suivent ont été transcrites mot pour mot à partir des photocop
 
 | Concours | Sujet et copie | Note | Moyenne candidats présents | Moyenne candidats admissibles |
 | :---: | :---: | :---: | :---: | :---: |
-| Agrégation externe 2019** | [Commentaire Locke, Essay, II, 21](<copies-de-concours/Résultats OCR/Commentaires/Commentaire Locke, Essay, II, 21 (Agrégation externe 2019 - note _ 16)/raw/Commentaire Locke, Essay, II, 21 (Agrégation externe 2019 - note _ 16).md>) | 16 |  |  |
+| Agrégation externe 2019 | [Commentaire Locke, Essay, II, 21](<copies-de-concours/Résultats OCR/Commentaires/Commentaire Locke, Essay, II, 21 (Agrégation externe 2019 - note _ 16)/raw/Commentaire Locke, Essay, II, 21 (Agrégation externe 2019 - note _ 16).md>) | 16 |  |  |
 | Agrégation interne 2020 | [Explication de Nietzsche, *Le Gai savoir*, §345](<copies-de-concours/commentaires_markdown_clean/Explication de Nietzsche, Le Gai savoir §345 (Agrégation interne 2020 - note _ 17).md>) | 17 |  |  |
+| Agrégation interne 2021** | [Commentaire de Foucault - Naissance de la clinique](<copies-de-concours/Résultats OCR/Commentaires/Commentaire de Foucault - Naissance de la clinique (Agrégation interne 2021 - note 13)/Commentaire de Foucault - Naissance de la clinique (Agrégation interne 2021 - note 13).md>) | 13 |  |  |
+| Agrégation externe 2022** | [Commentaire de Hobbes](<copies-de-concours/Résultats OCR/Commentaires/Commentaire de Hobbes (note 18)/Commentaire de Hobbes (note 18).md>) | 18 |  |  |
+| Agrégation interne 2022** | [Commentaire de Leibniz](<copies-de-concours/Résultats OCR/Commentaires/Commentaire de Leibniz (Agrégation interne 2022 - note _ 14)/raw/Commentaire de Leibniz (Agrégation interne 2022 - note _ 14).md>) | 14 |  |  |
+| Agrégation interne 2022** | [Commentaire de Leibniz](<copies-de-concours/Résultats OCR/Commentaires/Commentaire de Leibniz (Agrégation interne 2022 - note _ 16)/Commentaire de Leibniz (Agrégation interne 2022 - note _ 16).md>) | 16 |  |  |
+| **** | [Commentaire de Leibniz](<copies-de-concours/Résultats OCR/Commentaires/Commentaire de Leibniz (note _ 17)/Commentaire de Leibniz (note _ 17).md>) | 17 |  |  |
+| Agrégation 2022** | [Commentaire de Mill](<copies-de-concours/Résultats OCR/Commentaires/Commentaire de Mill (Agrégation 2022 - note 12)/Commentaire de Mill (Agrégation 2022 - note 12).md>) | 12 |  |  |
+| Agrégation 2022** | [Commentaire de Mill](<copies-de-concours/Résultats OCR/Commentaires/Commentaire de Mill (Agrégation 2022 - note _ 10)/Commentaire de Mill (Agrégation 2022 - note _ 10).md>) | 10 |  |  |
+| Agrégation 2022** | [Commentaire de Mill](<copies-de-concours/Résultats OCR/Commentaires/Commentaire de Mill (Agrégation 2022 - note _ 12)/Commentaire de Mill (Agrégation 2022 - note _ 12).md>) | 12 |  |  |
+| Agrégation 2022** | [Commentaire de Mill](<copies-de-concours/Résultats OCR/Commentaires/Commentaire de Mill (Agrégation 2022 - note _ 19)/Commentaire de Mill (Agrégation 2022 - note _ 19).md>) | 19 |  |  |
+| Agrégation externe 2022** | [Commentaire du Leviathan](<copies-de-concours/Résultats OCR/Commentaires/Commentaire du Leviathan (Agrégation externe 2022 - note _ 13)/Commentaire du Leviathan (Agrégation externe 2022 - note _ 13).md>) | 13 |  |  |
+
 
 
 ## Dissertations CAPES
@@ -72,16 +83,6 @@ Les copies qui suivent ont été transcrites mot pour mot à partir des photocop
 | **CAPES 2019** | [Commentaire de Diderot](<copies-de-concours/Résultats OCR/Commentaires/Commentaire de Diderot (CAPES 2019 - note _ 19)/raw/Commentaire de Diderot (CAPES 2019 - note _ 19).md>) | 19 |  |  |
 | **CAPES 2019** | [Commentaire de Diderot](<copies-de-concours/Résultats OCR/Commentaires/Commentaire de Diderot - note 14/Commentaire de Diderot (note _ 14).md>) | 14 |  |  |
 | Agrégation interne 2021** | [Commentaire de Foucault - Naissance de la clinique](<copies-de-concours/Résultats OCR/Commentaires/Commentaire de Foucault - Naissance de la clinique (Agrégation interne 2021 - note 12)/Commentaire de Foucault - Naissance de la clinique (Agrégation interne 2021 - note 12).md>) | 12 |  |  |
-| Agrégation interne 2021** | [Commentaire de Foucault - Naissance de la clinique](<copies-de-concours/Résultats OCR/Commentaires/Commentaire de Foucault - Naissance de la clinique (Agrégation interne 2021 - note 13)/Commentaire de Foucault - Naissance de la clinique (Agrégation interne 2021 - note 13).md>) | 13 |  |  |
-| Agrégation externe 2022** | [Commentaire de Hobbes](<copies-de-concours/Résultats OCR/Commentaires/Commentaire de Hobbes (note 18)/Commentaire de Hobbes (note 18).md>) | 18 |  |  |
-| Agrégation interne 2022** | [Commentaire de Leibniz](<copies-de-concours/Résultats OCR/Commentaires/Commentaire de Leibniz (Agrégation interne 2022 - note _ 14)/raw/Commentaire de Leibniz (Agrégation interne 2022 - note _ 14).md>) | 14 |  |  |
-| Agrégation interne 2022** | [Commentaire de Leibniz](<copies-de-concours/Résultats OCR/Commentaires/Commentaire de Leibniz (Agrégation interne 2022 - note _ 16)/Commentaire de Leibniz (Agrégation interne 2022 - note _ 16).md>) | 16 |  |  |
-| **** | [Commentaire de Leibniz](<copies-de-concours/Résultats OCR/Commentaires/Commentaire de Leibniz (note _ 17)/Commentaire de Leibniz (note _ 17).md>) | 17 |  |  |
-| Agrégation 2022** | [Commentaire de Mill](<copies-de-concours/Résultats OCR/Commentaires/Commentaire de Mill (Agrégation 2022 - note 12)/Commentaire de Mill (Agrégation 2022 - note 12).md>) | 12 |  |  |
-| Agrégation 2022** | [Commentaire de Mill](<copies-de-concours/Résultats OCR/Commentaires/Commentaire de Mill (Agrégation 2022 - note _ 10)/Commentaire de Mill (Agrégation 2022 - note _ 10).md>) | 10 |  |  |
-| Agrégation 2022** | [Commentaire de Mill](<copies-de-concours/Résultats OCR/Commentaires/Commentaire de Mill (Agrégation 2022 - note _ 12)/Commentaire de Mill (Agrégation 2022 - note _ 12).md>) | 12 |  |  |
-| Agrégation 2022** | [Commentaire de Mill](<copies-de-concours/Résultats OCR/Commentaires/Commentaire de Mill (Agrégation 2022 - note _ 19)/Commentaire de Mill (Agrégation 2022 - note _ 19).md>) | 19 |  |  |
-| Agrégation externe 2022** | [Commentaire du Leviathan](<copies-de-concours/Résultats OCR/Commentaires/Commentaire du Leviathan (Agrégation externe 2022 - note _ 13)/Commentaire du Leviathan (Agrégation externe 2022 - note _ 13).md>) | 13 |  |  |
 | Agrégation interne 2023** | [Est-ce une chance de naître humain](<copies-de-concours/Résultats OCR/Dissertations/Est-ce une chance de naître humain ( note 13 - température _ 0.3)/Est-ce une chance de naître humain ( note 13 - température _ 0.3).md>) | 13 |  |  |
 | Agrégation interne 2023** | [Est-ce une chance de naître humain](<copies-de-concours/Résultats OCR/Dissertations/Est-ce une chance de naître humain (note 16)_/Est-ce une chance de naître humain (note 16)_.md>) | 16 |  |  |
 | Agrégation interne 2023** | [Est-ce une chance de naître humain](<copies-de-concours/Résultats OCR/Dissertations/Est-ce une chance de naître humain _ (Agrégation interne 2023 - note _ 13).md>) | 13 |  |  |
