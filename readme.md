@@ -77,6 +77,15 @@ Les copies qui suivent ont été transcrites mot pour mot à partir des photocop
 
 
 
+## Concours INSP - ENA
+| Concours | Sujet et copie | Note | Moyenne candidats présents | Moyenne candidats admissibles |
+| :---: | :---: | :---: | :---: | :---: |
+| INSP Concours Interne 2022 | [L'usage de la violence](<Autres/INSP - ENA/L'usage de la violence - Épreuve d'admissibilité - Question contemporaine - INSP Concours Interne 2022 - note18.md>) | 18 |  |  |
+| ENA 2020 | [Faut-il un Etat fort ?](<Autres/INSP - ENA/Faut-il un Etat fort - ENA 2020 - note _ 17.md>) | 17 |  |  |
+| ENA 2019 | [La démocratie a-t-elle besoin des corps intermédiaires ?](<Autres/INSP - ENA/La démocratie a-t-elle besoin des corps intermédiaires (ENA 2019 - question contemporaine - note : 17,5).md>) | 17,5 |  |  |
+
+
+
 
 ## Commentaires CAPES :
 
@@ -85,6 +94,11 @@ Les copies qui suivent ont été transcrites mot pour mot à partir des photocop
 | :---: | :---: | :---: | :---: | :---: |
 | **CAPES 2019** | [Commentaire de Diderot](<copies-de-concours/Résultats OCR/Commentaires/Commentaire de Diderot (CAPES 2019 - note _ 19)/raw/Commentaire de Diderot (CAPES 2019 - note _ 19).md>) | 19 |  |  |
 | **CAPES 2019** | [Commentaire de Diderot](<copies-de-concours/Résultats OCR/Commentaires/Commentaire de Diderot - note 14/Commentaire de Diderot (note _ 14).md>) | 14 |  |  |
+
+## à trier :
+
+| Concours | Sujet et copie | Note | Moyenne candidats présents | Moyenne candidats admissibles |
+| :---: | :---: | :---: | :---: | :---: |
 | Agrégation interne 2023** | [Est-ce une chance de naître humain](<copies-de-concours/Résultats OCR/Dissertations/Est-ce une chance de naître humain ( note 13 - température _ 0.3)/Est-ce une chance de naître humain ( note 13 - température _ 0.3).md>) | 13 |  |  |
 | Agrégation interne 2023** | [Est-ce une chance de naître humain](<copies-de-concours/Résultats OCR/Dissertations/Est-ce une chance de naître humain (note 16)_/Est-ce une chance de naître humain (note 16)_.md>) | 16 |  |  |
 | Agrégation interne 2023** | [Est-ce une chance de naître humain](<copies-de-concours/Résultats OCR/Dissertations/Est-ce une chance de naître humain _ (Agrégation interne 2023 - note _ 13).md>) | 13 |  |  |
@@ -127,11 +141,3 @@ Les copies qui suivent ont été transcrites mot pour mot à partir des photocop
 | **** | [Qu’apprenons-nous de nos affects](<copies-de-concours/Résultats OCR/Dissertations/Qu’apprenons-nous de nos affects _ (Agrégation externe 2020 - note _ 15) (version 2)/raw/Qu’apprenons-nous de nos affects _ (OCR par Gemini 2.5 pro avec contexte).md>) |  |  |  |
 | **2** | [Qu'apprenons-nous de nos affects ?](<copies-de-concours/Résultats OCR/Dissertations/Qu’apprenons-nous de nos affects _ (Agrégation externe 2020 - note _ 15) (version 2)/raw/output(2).md>) |  |  |  |
 | Agrégation externe 2020** | [Qu’apprenons-nous de nos affects](<copies-de-concours/Résultats OCR/Dissertations/Qu’apprenons-nous de nos affects _ (Agrégation externe 2020 - note _ 15)/Qu’apprenons-nous de nos affects _ (Agrégation externe 2020 - note _ 15).md>) | 15 |  |  |
-
-## Concours INSP - ENA
-| Concours | Sujet et copie | Note | Moyenne candidats présents | Moyenne candidats admissibles |
-| :---: | :---: | :---: | :---: | :---: |
-| INSP Concours Interne 2022 | [L'usage de la violence](<Autres/INSP - ENA/L'usage de la violence - Épreuve d'admissibilité - Question contemporaine - INSP Concours Interne 2022 - note18.md>) | 18 |  |  |
-| ENA 2020 | [Faut-il un Etat fort ?](<Autres/INSP - ENA/Faut-il un Etat fort - ENA 2020 - note _ 17.md>) | 17 |  |  |
-| ENA 2019 | [La démocratie a-t-elle besoin des corps intermédiaires ?](<Autres/INSP - ENA/La démocratie a-t-elle besoin des corps intermédiaires (ENA 2019 - question contemporaine - note : 17,5).md>) | 17,5 |  |  |
-
