@@ -1,6 +1,6 @@
-# Dissertations rédigées en conditions réelles
+# Copies de philosophie
 
-Les dissertations qui suivent ont été transcrites mot pour mot à partir des photocopies fournies par les différents concours sur demande. En tant qu'elles sont rédigées dans des conditions réelles (temps limité, salle d'examen), ces copies sont imparfaites.
+Les copies qui suivent ont été transcrites mot pour mot à partir des photocopies fournies par les différents concours sur demande. En tant qu'elles sont rédigées dans des conditions réelles (temps limité, salle d'examen), ces copies sont imparfaites.
 
 |  Concours |  Sujet et copie |  Note | Moyenne  |  |
 | :---: | :---: | :---: | :---: | :---: |
