@@ -73,7 +73,8 @@ Les copies qui suivent ont été transcrites mot pour mot à partir des photocop
 | CAPES externe 2023 | [« Être soi-même » cela a t-il un sens ?](<copies-de-concours/Résultats OCR/Dissertations/« Être soi-même » cela a t-il un sens _ (CAPES 2023 - note _ 14,5)/raw/« Être soi-même » cela a t-il un sens _ (CAPES 2023 - note _ 14,5)_processed.md>) | 14,5 |  |  |
 | CAPES externe 2021 | [Dire, est-ce autre chose que vouloir dire ?](<copies-de-concours/dissertations_markdown_clean/Dire est-ce autre chose que vouloir dire _ (CAPES 2021 - note _ 15,5).md>) | 15,5 | 8.38 | 12.17 |
 | CAPES 2020 | [La paix est-elle le plus grand des biens ?](<copies-de-concours/dissertations_markdown_clean/La paix est-elle le plus grand des biens _ (CAPES 2020 - note _ 14,5).md>) | 14,5 |  |  |
-
+| CAPES externe 2022 | [Les maitres de vérité](<copies-de-concours/Résultats OCR/Dissertations/Les maitres de vérité (CAPES 2022 - note _ 11)/raw/Les maitres de vérité (CAPES 2022 - note _ 11).md>) | 11 |  |  |
+| CAPES externe 2022 | [Les maîtres de vérité 2](<copies-de-concours/Résultats OCR/Dissertations/Les maîtres de vérité 2 (CAPES 2022 - note _ 11)/Les maîtres de vérité 2 (CAPES 2022 - note _ 11).md>) | 11 |  |  |
 
 
 ## Dissertations ENS
@@ -119,8 +120,6 @@ Les copies qui suivent ont été transcrites mot pour mot à partir des photocop
 | **** | [Le vrai et le réel](<copies-de-concours/Résultats OCR/Dissertations/Le vrai et le réel (note 13,5)/Le vrai et le réel (note 13,5).md>) | 13,5 |  |  |
 | **** | [Le vrai et le réel](<copies-de-concours/Résultats OCR/Dissertations/Le vrai et le réel (note 15)/raw/Le vrai et le réel (note 15).md>) | 15 |  |  |
 | Agrégation 2021** | [Les choses ont-elles quelque chose en commun](<copies-de-concours/Résultats OCR/Dissertations/Les choses ont-elles quelque chose en commun _ (Agrégation 2021 - note _ 11,5)/Les choses ont-elles quelque chose en commun _ (Agrégation 2021 - note _ 11,5).md>) | 11,5 |  |  |
-| **CAPES 2022** | [Les maitres de vérité](<copies-de-concours/Résultats OCR/Dissertations/Les maitres de vérité (CAPES 2022 - note _ 11)/raw/Les maitres de vérité (CAPES 2022 - note _ 11).md>) | 11 |  |  |
-| **CAPES 2022** | [Les maîtres de vérité 2](<copies-de-concours/Résultats OCR/Dissertations/Les maîtres de vérité 2 (CAPES 2022 - note _ 11)/Les maîtres de vérité 2 (CAPES 2022 - note _ 11).md>) | 11 |  |  |
 | Agrégation externe 2024 | [Limagination nous instruit-elle](<copies-de-concours/Résultats OCR/Dissertations/Limagination nous instruit-elle (Agrégation externe 2024 - note _ 10)/raw/Limagination nous instruit-elle (Agrégation externe 2024 - note _ 10).md>) | 10 |  |  |
 | Agrégation 2024 | [Limagination nous instruit-elle](<copies-de-concours/Résultats OCR/Dissertations/Limagination nous instruit-elle _ (Agrégation 2024 - note _ 13 - température _ 0.3)/Limagination nous instruit-elle _ (Agrégation 2024 - note _ 13 - température _ 0.3).md>) | 13 |  |  |
 | **** | [Lusage des principes](<copies-de-concours/Résultats OCR/Dissertations/Lusage des principes (note 13)/Lusage des principes (note 13).md>) | 13 |  |  |
