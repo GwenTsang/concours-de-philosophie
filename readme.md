@@ -36,26 +36,25 @@ Les copies qui suivent ont été transcrites mot pour mot à partir des photocop
 
 
 
-|  Concours |  Sujet et copie |  Note | Moyenne  |  |
+| Concours | Sujet et copie | Note | Moyenne candidats présents | Moyenne candidats admissibles |
 | :---: | :---: | :---: | :---: | :---: |
-|  |  |  | **candidats présents** | **candidats admissibles**  |
-| **Capes externe 2024** | [L'avenir est-il l'affaire de la pensée ?](<copies-de-concours/dissertations_markdown_clean/L'avenir est-il l'affaire de la pensée _ (CAPES 2024 - note _ 20).md>) | 20 | 8.69 | 12.31 |
-| **Capes externe 2021** | [Dire, est-ce autre chose que vouloir dire ?](<copies-de-concours/dissertations_markdown_clean/Dire est-ce autre chose que vouloir dire _ (CAPES 2021 - note _ 15,5).md>) | 15,5 | 8.38 | 12.17 |
-| **Capes 2020** | [La paix est-elle le plus grand des biens ?](<copies-de-concours/dissertations_markdown_clean/La paix est-elle le plus grand des biens _ (CAPES 2020 - note _ 14,5).md>) | 14,5 |  |  |
-| **Capes externe 2025** | [L'idée de perfection](<copies-de-concours/dissertations_markdown_clean/L_idée_de_perfection_note_19.md>) | 19 |  |  |
-| **Capes externe 2025** | [L'idée de perfection](<copies-de-concours/dissertations_markdown_clean/L_idée_de_perfection_note_16.md>) | 16 |  |  |
+| CAPES externe 2024 | [L'avenir est-il l'affaire de la pensée ?](<copies-de-concours/dissertations_markdown_clean/L'avenir est-il l'affaire de la pensée _ (CAPES 2024 - note _ 20).md>) | 20 | 8.69 | 12.31 |
+| CAPES externe 2021 | [Dire, est-ce autre chose que vouloir dire ?](<copies-de-concours/dissertations_markdown_clean/Dire est-ce autre chose que vouloir dire _ (CAPES 2021 - note _ 15,5).md>) | 15,5 | 8.38 | 12.17 |
+| CAPES 2020 | [La paix est-elle le plus grand des biens ?](<copies-de-concours/dissertations_markdown_clean/La paix est-elle le plus grand des biens _ (CAPES 2020 - note _ 14,5).md>) | 14,5 |  |  |
+| CAPES externe 2025 | [L'idée de perfection](<copies-de-concours/dissertations_markdown_clean/L_idée_de_perfection_note_19.md>) | 19 |  |  |
+| CAPES externe 2025 | [L'idée de perfection](<copies-de-concours/dissertations_markdown_clean/L_idée_de_perfection_note_16.md>) | 16 |  |  |
 
 ## Dissertations ENS
 
-|  Concours |  Sujet et copie |  Note | Moyenne  |  |
+
+| Concours | Sujet et copie | Note | Moyenne candidats présents | Moyenne candidats admissibles |
 | :---: | :---: | :---: | :---: | :---: |
-|  |  |  | **candidats présents** | **candidats admissibles**  |
 | **ENS 2006** | [Peut-on dire que seuls les humains travaillent ?](<copies-de-concours/dissertations_markdown_clean/Peut-on dire que seuls les humains travaillent _ (ENS 2006 - note _ 19).md>) | 19 |  |  |
 | **ENS 2006** | [Les sciences supposent-elles l'idée de nécessité ?](<copies-de-concours/Les sciences supposent- elles l'idée de nécessité _ (ENS 2006 - note _ 19).md>) | 19 |  |  |
 | **ENS 2024** | [La valeur de la nature](<copies-de-concours/dissertations_markdown_clean/La valeur de la nature (ENS 2024 - note : 19).md>) | 19 |  |  |
 
 
-## Nouveaux :
+## Commenta :
 
 |  Concours |  Sujet et copie |  Note | Moyenne  |  |
 | :---: | :---: | :---: | :---: | :---: |
