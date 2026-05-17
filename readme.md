@@ -57,11 +57,14 @@ Les copies qui suivent ont été transcrites mot pour mot à partir des photocop
 
 | Concours | Sujet et copie | Note | Moyenne candidats présents | Moyenne candidats admissibles |
 | :---: | :---: | :---: | :---: | :---: |
-| CAPES externe 2024 | [L'avenir est-il l'affaire de la pensée ?](<copies-de-concours/dissertations_markdown_clean/L'avenir est-il l'affaire de la pensée _ (CAPES 2024 - note _ 20).md>) | 20 | 8.69 | 12.31 |
-| CAPES externe 2021 | [Dire, est-ce autre chose que vouloir dire ?](<copies-de-concours/dissertations_markdown_clean/Dire est-ce autre chose que vouloir dire _ (CAPES 2021 - note _ 15,5).md>) | 15,5 | 8.38 | 12.17 |
-| CAPES 2020 | [La paix est-elle le plus grand des biens ?](<copies-de-concours/dissertations_markdown_clean/La paix est-elle le plus grand des biens _ (CAPES 2020 - note _ 14,5).md>) | 14,5 |  |  |
+
 | CAPES externe 2025 | [L'idée de perfection](<copies-de-concours/dissertations_markdown_clean/L_idée_de_perfection_note_19.md>) | 19 |  |  |
 | CAPES externe 2025 | [L'idée de perfection](<copies-de-concours/dissertations_markdown_clean/L_idée_de_perfection_note_16.md>) | 16 |  |  |
+| CAPES externe 2024 | [L'avenir est-il l'affaire de la pensée ?](<copies-de-concours/dissertations_markdown_clean/L'avenir est-il l'affaire de la pensée _ (CAPES 2024 - note _ 20).md>) | 20 | 8.69 | 12.31 |
+| CAPES externe 2023 | [« Être soi-même » cela a t-il ](<copies-de-concours/Résultats OCR/Dissertations/« Être soi-même » cela a t-il  _ (CAPES 2023 - note _ 14,5)/raw/« Être soi-même » cela a t-il un sens _ (CAPES 2023 - note _ 14,5)_processed.md>) | 14,5 |  |  |
+| CAPES externe 2021 | [Dire, est-ce autre chose que vouloir dire ?](<copies-de-concours/dissertations_markdown_clean/Dire est-ce autre chose que vouloir dire _ (CAPES 2021 - note _ 15,5).md>) | 15,5 | 8.38 | 12.17 |
+| CAPES 2020 | [La paix est-elle le plus grand des biens ?](<copies-de-concours/dissertations_markdown_clean/La paix est-elle le plus grand des biens _ (CAPES 2020 - note _ 14,5).md>) | 14,5 |  |  |
+
 
 ## Dissertations ENS
 
@@ -125,4 +128,3 @@ Les copies qui suivent ont été transcrites mot pour mot à partir des photocop
 | **** | [Qu’apprenons-nous de nos affects](<copies-de-concours/Résultats OCR/Dissertations/Qu’apprenons-nous de nos affects _ (Agrégation externe 2020 - note _ 15) (version 2)/raw/Qu’apprenons-nous de nos affects _ (OCR par Gemini 2.5 pro avec contexte).md>) |  |  |  |
 | **2** | [output](<copies-de-concours/Résultats OCR/Dissertations/Qu’apprenons-nous de nos affects _ (Agrégation externe 2020 - note _ 15) (version 2)/raw/output(2).md>) |  |  |  |
 | Agrégation externe 2020** | [Qu’apprenons-nous de nos affects](<copies-de-concours/Résultats OCR/Dissertations/Qu’apprenons-nous de nos affects _ (Agrégation externe 2020 - note _ 15)/Qu’apprenons-nous de nos affects _ (Agrégation externe 2020 - note _ 15).md>) | 15 |  |  |
-| **CAPES 2023** | [« Être soi-même » cela a t-il un sens](<copies-de-concours/Résultats OCR/Dissertations/« Être soi-même » cela a t-il un sens _ (CAPES 2023 - note _ 14,5)/raw/« Être soi-même » cela a t-il un sens _ (CAPES 2023 - note _ 14,5)_processed.md>) | 14,5 |  |  |
