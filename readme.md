@@ -77,7 +77,7 @@ Les copies qui suivent ont été transcrites mot pour mot à partir des photocop
 
 
 
-## Concours INSP - ENA
+## Copies INSP - ENA
 | Concours | Sujet et copie | Note | Moy. candidats présents | Moy. candidats admissibles |
 | :---: | :---: | :---: | :---: | :---: |
 | INSP Concours Interne 2022 | [L'usage de la violence](<Autres/INSP - ENA/L'usage de la violence - Épreuve d'admissibilité - Question contemporaine - INSP Concours Interne 2022 - note18.md>) | 18 |  |  |
