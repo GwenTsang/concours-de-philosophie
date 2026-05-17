@@ -2,10 +2,7 @@
 
 Les copies qui suivent ont été transcrites mot pour mot à partir des photocopies fournies par les différents concours sur demande. En tant qu'elles sont rédigées dans des conditions réelles (temps limité, salle d'examen), ces copies sont imparfaites.
 
-# Dissertations d'agrégation
-
-
-
+## Dissertations d'agrégation
 
 |  Concours |  Sujet et copie |  Note | Moyenne  |  |
 | :---: | :---: | :---: | :---: | :---: |
@@ -15,7 +12,7 @@ Les copies qui suivent ont été transcrites mot pour mot à partir des photocop
 | **Agrégation externe 2017** <br>2ème compo. | [Habiter le monde](<copies-de-concours/dissertations_markdown_clean/Habiter le monde (Agrégation 2017 - note _ 16).md>) | 16 | 7.15 | 10.95 |
 | **Agrégation externe 2018** <br>1ère compo. | [Langage et réalité](<copies-de-concours/dissertations_markdown_clean/Langage et réalité (Agrégation externe 2018 - note _ 19).md>) | 19 | 7.07 | 10.38 |
 | **Agrégation externe 2018** <br>1ère compo. | [La simplicité](<copies-de-concours/dissertations_markdown_clean/La simplicité (Agrégation 2018 - note _ 12).md>) | 12 | 7.01 | 10.42 |
-| **Agrégation 2020** | [Le vrai et le réel](<copies-de-concours/dissertations_markdown_clean/Le vrai et le réel (Agrégation 2020 - note _ 13,5).md>) | 13,5 |  |  |
+| **Agrégation interne 2020** | [Le vrai et le réel](<copies-de-concours/dissertations_markdown_clean/Le vrai et le réel (Agrégation 2020 - note _ 13,5).md>) | 13,5 |  |  |
 | **Agrégation interne 2020** | [Le vrai et le réel](<copies-de-concours/dissertations_markdown_clean/Le vrai et le réel (Agrégation interne 2020 - note : 14).md>) | 14 |  |  |
 | **Agrégation externe 2021** <br>1ère compo. | [Que peut le droit ?](<copies-de-concours/dissertations_markdown_clean/Que peut le droit _ (Agrégation 2021 - note 18).md>) | 18 | 7.61 | 11.08 |
 | **Agrégation externe 2021** <br>2ème compo. | [Les choses ont-elles quelque chose en commun ?]() | 15,5 | 8.24 | 12.06 |
