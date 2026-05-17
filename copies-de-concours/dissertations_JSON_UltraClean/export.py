@@ -113,7 +113,8 @@ def export_markdown(struct: Dict, md_path: Path, rawtext: bool = False) -> None:
         if not is_transition and not rawtext:
             lines.append(f'<div align="center"><h2>{label}</h2></div>\n')
         for p in paragraphs:
-            lines.append(p)
+            p_clean = "\n".join(line.lstrip(" \t") for line in p.split("\n"))
+            lines.append(p_clean)
             lines.append("")
         lines.append("")
     md_path.write_text("\n".join([l for l in lines if l]).strip() + "\n", encoding="utf-8")
@@ -299,11 +300,10 @@ def export_folder(
             # Safety check: If two files have the same topic AND same note, 
             # or if a file with this name already exists from a previous run
             temp_name = final_name
-            counter = 1
-            while temp_name in used_final_names or any((out_dir / f"{temp_name}.{fmt}").exists() for fmt in formats):
-                # Append original filename stem to break the tie
+            if temp_name in used_final_names or any((out_dir / f"{temp_name}.{fmt}").exists() for fmt in formats):
                 temp_name = f"{final_name}_{jp.stem}"
-                if temp_name in used_final_names: # Still? Add a number
+                counter = 1
+                while temp_name in used_final_names or any((out_dir / f"{temp_name}.{fmt}").exists() for fmt in formats):
                     temp_name = f"{final_name}_{jp.stem}_{counter}"
                     counter += 1
             
