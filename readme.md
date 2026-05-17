@@ -124,6 +124,7 @@ Les copies qui suivent ont été transcrites mot pour mot à partir des photocop
 | **** | [Que peut le droit](<copies-de-concours/Résultats OCR/Dissertations/Que peut le droit _ (note _ 11)/raw/Que peut le droit (ocr par gemini 2.5 pro avec contexte).md>) |  |  |  |
 | Agrégation interne 2024** | [Quest-ce qui est sensible](<copies-de-concours/Résultats OCR/Dissertations/Quest-ce qui est sensible _ (Agrégation interne 2024 - note _ 7)/Quest-ce qui est sensible _ (Agrégation interne 2024 - note _ 7)_processed.md>) | 7 |  |  |
 | Agrégation externe 2020** | [Qu’apprenons-nous de nos affects](<copies-de-concours/Résultats OCR/Dissertations/Qu’apprenons-nous de nos affects _ (Agrégation externe 2020 - note _ 15) (version 2)/Qu’apprenons-nous de nos affects _ (Agrégation externe 2020 - note _ 15).md>) | 15 |  |  |
+| **** | [Qu’apprenons-nous de nos affects](<copies-de-concours/Résultats OCR/Dissertations/Qu’apprenons-nous de nos affects _ (Agrégation externe 2020 - note _ 15) (version 2)/raw/Qu’apprenons-nous de nos affects _ (OCR par Gemini 2.5 pro avec contexte).md>) |  |  |  |
 
 ## Concours INSP - ENA
 
@@ -134,6 +135,6 @@ Les copies qui suivent ont été transcrites mot pour mot à partir des photocop
 | ENA 2020 | [Faut-il un Etat fort](<Autres/INSP - ENA/Faut-il un Etat fort - ENA 2020 - note _ 17.md>) | 17 |  |  |
 | ENA 2019 | [La démocratie a-t-elle besoin des corps intermédiaires](<Autres/INSP - ENA/La démocratie a-t-elle besoin des corps intermédiaires (ENA 2019 - question contemporaine - note : 17,5).md>) | 17,5 |  |  |
 
-| **** | [Qu’apprenons-nous de nos affects](<copies-de-concours/Résultats OCR/Dissertations/Qu’apprenons-nous de nos affects _ (Agrégation externe 2020 - note _ 15) (version 2)/raw/Qu’apprenons-nous de nos affects _ (OCR par Gemini 2.5 pro avec contexte).md>) |  |  |  |
+
 | **2** | [output](<copies-de-concours/Résultats OCR/Dissertations/Qu’apprenons-nous de nos affects _ (Agrégation externe 2020 - note _ 15) (version 2)/raw/output(2).md>) |  |  |  |
 | Agrégation externe 2020** | [Qu’apprenons-nous de nos affects](<copies-de-concours/Résultats OCR/Dissertations/Qu’apprenons-nous de nos affects _ (Agrégation externe 2020 - note _ 15)/Qu’apprenons-nous de nos affects _ (Agrégation externe 2020 - note _ 15).md>) | 15 |  |  |
