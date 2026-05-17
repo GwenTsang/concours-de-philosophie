@@ -25,9 +25,6 @@ Les copies qui suivent ont été transcrites mot pour mot à partir des photocop
 | **Agrégation externe 2025** | [Avoir de la chance](<copies-de-concours/dissertations_markdown_raw/Avoir de la chance (Agrégation Externe 2025 -note : 8,5).md>) | 8,5 |  |  |
 | **Agrégation externe 2025** <br>2ème compo. | [Avoir de la chance](<copies-de-concours/dissertations_markdown_raw/Avoir_de_la_chance (Agrégation 2025 externe composition 2 - note : 9).md>) | 9 |  |  |
 | **Agrégation 2025** | [Le savoir est-il désirable](<copies-de-concours/dissertations_markdown_raw/Le savoir est-il désirable (Agrégation 2025 - note 11,5).md>) | 11,5 |  |  |
-| **ENS 2006** | [Peut-on dire que seuls les humains travaillent ?](<copies-de-concours/dissertations_markdown_clean/Peut-on dire que seuls les humains travaillent _ (ENS 2006 - note _ 19).md>) | 19 |  |  |
-| **ENS 2006** | [Les sciences supposent-elles l'idée de nécessité ?](<copies-de-concours/Les sciences supposent- elles l'idée de nécessité _ (ENS 2006 - note _ 19).md>) | 19 |  |  |
-| **ENS 2024** | [La valeur de la nature](<copies-de-concours/dissertations_markdown_clean/La valeur de la nature (ENS 2024 - note : 19).md>) | 19 |  |  |
 | **Prépa agrégation** | [Histoire et violence](<copies-de-concours/dissertations_markdown_clean/Histoire et violence (Prépa Agrégation - note _ 18,5).md>) | 18,5 |  |  |
 | **Prépa agrégation** | [La servitude volontaire](<copies-de-concours/dissertations_markdown_clean/La servitude volontaire (prépa Agrégation - note _ 15).md>) | 15 |  |  |
 | **Prépa agrégation** | [Les limites de l'imagination](<copies-de-concours/dissertations_markdown_clean/Les limites de l'imagination (Prépa Agrégation - note _ 15).md>) | 15 |  |  |
@@ -47,7 +44,14 @@ Les copies qui suivent ont été transcrites mot pour mot à partir des photocop
 | **Capes externe 2025** | [L'idée de perfection](<copies-de-concours/dissertations_markdown_clean/L_idée_de_perfection_note_19.md>) | 19 |  |  |
 | **Capes externe 2025** | [L'idée de perfection](<copies-de-concours/dissertations_markdown_clean/L_idée_de_perfection_note_16.md>) | 16 |  |  |
 
+## Dissertations ENS
 
+|  Concours |  Sujet et copie |  Note | Moyenne  |  |
+| :---: | :---: | :---: | :---: | :---: |
+|  |  |  | **candidats présents** | **candidats admissibles**  |
+| **ENS 2006** | [Peut-on dire que seuls les humains travaillent ?](<copies-de-concours/dissertations_markdown_clean/Peut-on dire que seuls les humains travaillent _ (ENS 2006 - note _ 19).md>) | 19 |  |  |
+| **ENS 2006** | [Les sciences supposent-elles l'idée de nécessité ?](<copies-de-concours/Les sciences supposent- elles l'idée de nécessité _ (ENS 2006 - note _ 19).md>) | 19 |  |  |
+| **ENS 2024** | [La valeur de la nature](<copies-de-concours/dissertations_markdown_clean/La valeur de la nature (ENS 2024 - note : 19).md>) | 19 |  |  |
 
 
 ## Nouveaux :
