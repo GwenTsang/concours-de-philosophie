@@ -37,14 +37,14 @@ Les dissertations qui suivent ont été transcrites mot pour mot à partir des p
 | **Agrégation externe** | [Commentaire de Diderot](<copies-de-concours/commentaires_markdown_clean/Commentaire de Diderot (Agrégation externe - note _ 10).md>) | 10 |  |  |
 | **Agrégation interne 2020** | [Explication de Nietzsche, *Le Gai savoir*, §345](<copies-de-concours/commentaires_markdown_clean/Explication de Nietzsche, Le Gai savoir §345 (Agrégation interne 2020 - note _ 17).md>) | 17 |  |  |
 
-## Nouveaux fichiers OCR à trier
+## Nouveaux :
 
 |  Concours |  Sujet et copie |  Note | Moyenne  |  |
 | :---: | :---: | :---: | :---: | :---: |
 |  |  |  | **candidats présents** | **candidats admissibles**  |
 | **Agrégation externe 2019** | [Commentaire Locke, Essay, II, 21](<copies-de-concours/Résultats OCR/Commentaires/Commentaire Locke, Essay, II, 21 (Agrégation externe 2019 - note _ 16)/raw/Commentaire Locke, Essay, II, 21 (Agrégation externe 2019 - note _ 16).md>) | 16 |  |  |
 | **CAPES 2019** | [Commentaire de Diderot](<copies-de-concours/Résultats OCR/Commentaires/Commentaire de Diderot (CAPES 2019 - note _ 19)/raw/Commentaire de Diderot (CAPES 2019 - note _ 19).md>) | 19 |  |  |
-| CAPES | [Commentaire de Diderot](<copies-de-concours/Résultats OCR/Commentaires/Commentaire de Diderot - note 14/Commentaire de Diderot (note _ 14).md>) | 14 |  |  |
+| **CAPES 2019** | [Commentaire de Diderot](<copies-de-concours/Résultats OCR/Commentaires/Commentaire de Diderot - note 14/Commentaire de Diderot (note _ 14).md>) | 14 |  |  |
 | **Agrégation interne 2021** | [Commentaire de Foucault - Naissance de la clinique](<copies-de-concours/Résultats OCR/Commentaires/Commentaire de Foucault - Naissance de la clinique (Agrégation interne 2021 - note 12)/Commentaire de Foucault - Naissance de la clinique (Agrégation interne 2021 - note 12).md>) | 12 |  |  |
 | **Agrégation interne 2021** | [Commentaire de Foucault - Naissance de la clinique](<copies-de-concours/Résultats OCR/Commentaires/Commentaire de Foucault - Naissance de la clinique (Agrégation interne 2021 - note 13)/Commentaire de Foucault - Naissance de la clinique (Agrégation interne 2021 - note 13).md>) | 13 |  |  |
 | **** | [Commentaire de Hobbes](<copies-de-concours/Résultats OCR/Commentaires/Commentaire de Hobbes (note 18)/Commentaire de Hobbes (note 18).md>) | 18 |  |  |
@@ -69,8 +69,6 @@ Les dissertations qui suivent ont été transcrites mot pour mot à partir des p
 | **Agrégation 2023** | [L égalité](<copies-de-concours/Résultats OCR/Dissertations/L_égalité (Agrégation 2023 - note _ 12)/raw/L_égalité (Agrégation 2023 - note _ 12).md>) | 12 |  |  |
 | **Agrégation externe 2023** | [L égalité](<copies-de-concours/Résultats OCR/Dissertations/L_égalité (Agrégation externe 2023 - note _ 15)/Raw/L_égalité (Agrégation externe 2023 - note _ 15).md>) | 15 |  |  |
 | **CAPES 2020** | [La paix est-elle le plus grand des biens](<copies-de-concours/Résultats OCR/Dissertations/La paix est-elle le plus grand des biens (CAPES 2020 - note _ 15)/raw/La paix est-elle le plus grand des biens (CAPES 2020 - note _ 15).md>) | 15 |  |  |
-| **config normale - incomplet** | [Langage et réalité](<copies-de-concours/Résultats OCR/Dissertations/Langage et réalité (note _ 19)/Langage et réalité (config normale - incomplet).md>) |  |  |  |
-| **** | [Langage et réalité](<copies-de-concours/Résultats OCR/Dissertations/Langage et réalité (note _ 19)/Langage et réalité (température 0.3 et prompt allégé).md>) |  |  |  |
 |  | [Le bonheur est-il affaire de hasard et de nécessité 15.5](<copies-de-concours/Résultats OCR/Dissertations/Le bonheur est-il affaire de hasard et de nécessité 15.5 _/Le bonheur est-il affaire de hasard et de nécessité 15.5 _.md>) |  |  |  |
 | **1** | [Le bonheur est-il affaire de hasard ou de nécessité](<copies-de-concours/Résultats OCR/Dissertations/Le bonheur est-il affaire de hasard ou de nécessité _ (Agrégation interne - note _ 16)/raw/Le bonheur est-il affaire de hasard ou de nécessité _(1)(1).md>) |  |  |  |
 | **** | [Le bonheur est-il affaire de hasard ou de nécessité](<copies-de-concours/Résultats OCR/Dissertations/Le bonheur est-il affaire de hasard ou de nécessité (note _ 14 )_/Le bonheur est-il affaire de hasard ou de nécessité (note _ 14 )_.md>) | 14 |  |  |
