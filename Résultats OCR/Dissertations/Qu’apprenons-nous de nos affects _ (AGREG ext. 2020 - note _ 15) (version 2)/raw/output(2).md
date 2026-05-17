@@ -1,0 +1,254 @@
+# Qu’apprenons-nous de nos affects ? (AGREG ext. 2020 - note : 15) (1)
+
+En psychiatrie, certaines pathologies altèrent les capacités <u><em>affectives</em></u> du
+malade. Une lésion du cortex pré-frontal par exemple conduit à une incapacité
+à ressentir des émotions ainsi qu'à lire les émotions d'autrui. La schizophrénie
+altère la corrélation entre les affects et l'action, les comportements de l'agent sont
+alors inadaptées aux situations. La dépression, enfin, produit une aboulie, anihilant
+toutes motivations, tout intérêt affectif pour le bien, le beau ou l'agréable.
+Ces différentes pathologies sont intéressantes en tant qu'elles offrent, négativement,
+une vision du rôle fondamental des affects. "Affect" étant à entendre comme
+les émotions, sentiments, passions qui s'imposent à l'individu affectant son esprit
+et son corps, lors de situations particulières. Trois rôles peuvent être distingués :
+Ils permettent la compréhension de ses comportements et de ceux d'autrui ; ainsi que
+l'adaptation du comportement à la situation ; et enfin ils donnent un motif d'action, l'adaptation du comportement à la situation, et enfin ils donnent un motif d'action,
+initiant le mouvement. Les affects semblent donc offrir un savoir pratique
+immédiatement exploitable. Seulement, lorsque nous nous penchons sur ces
+connaissances émotionnelles - permettant de juger, d'évaluer, d'adapter l'action ainsi
+que de la motiver - nous découvrons un savoir fuyant, situationnel, singulier,
+difficilement analysable, valable seulement durant l'instant de l'émotion. Si nous ne ressentons
+plus la colère, les alternatives d'actions valables au moment de l'affect ne sont plus
+envisagées ni envisageables. Or une connaissance véritable n'est-elle pas une
+information stable, consistante dont la mémorisation par l'apprentissage permettrait
+son application dans des raisonnements pratiques ou théoriques ultérieurs ? De plus,
+l'apprentissage est le développement de la sphère de nos connaissances, assimilant
+un objet inconnu en un objet bien connu. Apprendre de nos affect supposerait un objet inconnu en un objet bien connu, Apprendre de nos affect supposerait
+alors une distance entre le sujet apprenant et le sujet affecté : objet d'étude.
+Or l'affect a pour caracteristique "d'affecter". Au moment de l'émotion la
+distance necessaire a l'apprentissage n'est pas realisée. Apprendre de ses affects,
+supposerait toujours un apprentissage retroactif, en retard sur son objet,
+incapable de le saisir, present quant l'objet est absent, absent lorsque celui . ci est présent. Pourtant, les pathologies présentées plus haut prouvent l'existence
+d'un apprentissage émotionnel, dans le domaine social, psychologique, éthique,
+esthétique... Les émotions nous apprennent donc quelque chose.
+Ainsi, le rapport privilégié à nos émotions permettrait de connaître mes
+réactions selon certaines situations, connaître celles d'autrui par analogie, et ainsi,
+par expériences répétées former un répertoire d'actions adéquates selon la
+situation. Seulement cet apprentissage stimulus > réaction, s'assimile à un dressage
+simplifiant à l'extrême la réalité complexe et singulière de la vie affective, conduisant
+à des comportements rationalisés, stéréotypés. Nos <u><em>affects</em></u> conduisent plutôt
+à un savoir singulier, par l'analyse des causes circonstancielles et de la
+singularité du sujet de l'affect. Or cet apprentissage suppose une distance
+nécessaire entre le sujet apprenant et le sujet sentant, distance qui est par necessaire entre le sujet apprenant et le sujet sentant, distance qui est par
+definition impossible dans l'experience de l'emotion.
+Le Probleme est donc; s'il est evident que nos emotions nous apportent
+un savoir social, ethique et pratique puisque sans elles cet apprentissage
+n'aurait pas lieu. Nous devons nous interoger sur la nature de ce savoir.
+Qu'est ce qu'un apprentissage qui ne peut être transféré à d'autres situations
+sans se vider de sa consistance - l'essence singulière et complexe des affects -;
+et dont l'apprentissage suppose l'absence de l'objet ?
+Nos affects peuvent-ils nous apprendre autre chose qu'un savoir non
+generalisable, ou inactuel, retrospectif ? si ils ne le peuvent pas
+Devons nous supprimer les affects
+de la deliberation politique, ou même éthique ? <u><em> </em></u> *
+Lorsque nous parlons "d'intelligence emotionelle" en science cognitive,
+il est entendu que le sujet est capable de saisir immediatement et intuitivement
+les émotions d'autrui afin de s'y adapter au mieux. L'apprentissage emotionnel
+prendrait place dès le developpement de l'enfant, à 3 ans l'enfant peut ainsi
+se mettre à la place de l'autre". La diversité de ses experiences affectives vont
+lui permettre d'elargir ses connaissances emotionnelles, L'experience, du desir sexuel,
+des chagrin d'amour, du deuil, de la jalousie vont lui permettre de reconnaitre des chagrin d'amour, du deuil, de la jalousie vont lui permettre de reconnaitre
+chez autrui, ces mêmes emotions, et par analogie, comprendre ses besoins, qui etaient
+les siens-propres lorsqu'il ressentait ces affects. L'apprentissage affectif semble
+donc comprendre deux moments; le moment de l'experience vécue en propre; et
+le moment de la reconnaissance par analogie d'une similitude entre l'affect
+d'autrui et mes affects. Husserl dans la <u><em>Quatrième méditation cartésienne</em></u>,
+exprime cette reconnaissance analogique par l'experience du corps propre.
+Dans ma sphère propre, de mes vécus, de mes affects, se trouve un objet particulier
+qui réagit à mes affects et dont les mouvements m'affectent réciproquement.
+des rapports necessaires
+Cet objet, c'est mon corps. Plus la connaissance^ entre mes affects et mon corps
+sera étendue - je souris quand je suis heureux, je pleure quand je suis triste -
+plus ma comprehension d'autrui sera précise. En effet, par analogie, je plus ma comprehension d'autrui sera précise. En effet, par analogie, je
+deduis, dans les aperceptions du corps qui me fait face les mêmes
+rapport mouvement du corps, affect de l'esprit - Il sourit, il est heureux.
+Si cette solution est commode pour expliquer comment se developpe notre repertoire
+affectif, il apparaît que la médiation rationnelle - déduction analogique - n'est
+pas présente dans l'analyse du sentiment empathique. Le sujet doué "d'intelligence
+emotionnelle" perçoit immediatement les sentiments d'autrui.
+L'intelligence affective est donc intuitive. Lorsque le spectateur regarde
+la pièce d'Antigone, l'émotion d'injustice, d'indignation sont vécues spontanement,
+immédiatement, sans déduction analogique. En effet, il n'est pas necessaire
+d'avoir eu un frère privé de sépulture pour saisir l'affect qui meut l'héroïne.
+L'apprentissage affectif ne se fait donc pas par accumulation d'expériences L'apprentissage affectif ne se fait donc pas par accumulation d'expériences
+affectives, mais plutot par l'éducation d'une faculté emotionnelle. Bergson
+distingue ainsi dans <u><em>Les essais sur les données immédiates de la conscience</em></u>,
+l'intelligence et l'intuition. La première est spatiale et accumule des
+connaissances abstraites de l'expérience à des fins pratiques, la seconde s'éprouve dans la durée singulière hétérogène. L'intuition de la durée d'une
+chose, c'est l'intuition de son mouvement essentiel. Lorsque nous observons
+un danseur nous le percevons dans sa durée, nous partageons son mouvement,
+nous en éprouvons la grâce. La compassion semble alors être la <u><em>saisie intuitive</em></u>
+de ce qui meut l'autre. Le philosophe français, distingue, dans <u><em>les deux sources</em></u>
+<u><em>de la morale et de la religion</em></u>, le dressage et l'inspiration. Dans les sociétés
+closes, l'apprentissage affectif se limite à la construction d'une cohésion sociale,
+les affects, les émotions, permettent de se comprendre au sein de la société,
+et de se distinguer des "autres". Ainsi, une même colère permettra d'unir
+un groupe contre ceux dont ils éprouvent de la colère. Dans la morale ouverte
+l'homme est mû par des émotions universelles qui lui sont l'homme est mû par des emotions universelles qui lui sont
+inspirées par des hommes mystiques capable de creer de nouvelles emotions.
+Ainsi l'apprentissage affectif serait la capacité à intuitionner les
+affects d'autrui, et à puiser "les" emotions les plus universelles. Or cette vision
+pose deux ecueils, le premier est inherente à l'intuition elle même;
+comment saisir effectivement la complexité du vécu d'Autrui. Bergson prend
+l'exemple du mystique St François d'assise, qui inspira des milliers de
+croyants. Les descriptions faites de cet acte d'abandon des richesses, des plaisirs
+materiels, sont toujours insuffisantes à expliquer l'émotion du Saint lors
+de sa revelation. "Le langage etant commun, il empêche d'acceder à la
+singularité des vécus affectifs" (<u><em>Le Rire</em></u>) expliquait Bergson. Il n'est alors jamais
+certain que nous intuitionnons l'emotion vecu, dans une situation donnée. De plus, certain que nous intuitionnons l'emotion vecu, dans une situation donnée. De plus,
+Bergson insiste sur la nouveauté des émotions crées par ces "grandes sensibilites
+affectives". Cela suppose que l'apprentissage affectif n'est que l'interiorisation`20`
+d'une réalité emotionnelle simplifiée, banalisée. "L'amour sexuel reprend le langage
+et les codes de l'experience mystique" ecrit-il dans <u><em>les deux sources</em></u>...
+Ainsi l'apprentissage des facultés affectives, que ce soit la capacité de se
+comprendre et de comprendre l'autre, ne serait que l'interiorisation d'un
+langage émohonnel apauvri par le caractere commun des mots. Si l'intuition
+immediate du vecu emohennel d'autrui m'apporte un savoir pratique, ce n'est
+pas par raisonnement analogique, mais par éducation commune à un même
+repertoire affectif. Les emotions universelles, riches, hautes ne seroient reservées qu'à
+sans une classe superieure de sensibilites dont l'intuition de leurs emotions ne sans une classe superieure de sensibilites dont l'intuition de leurs emotions ne
+pourra jamais être verifiée.
+<u><em> </em></u> *
+
+Nous voila face à deux constats decevants les emotions ne . nous apprennent rien, mais sont les fruits d'un apprentissage affectif apauvri
+par le langage. Le developpement de nos facultés affectives, par l'intuition
+du vecu des mystiques nous apprend une morale universelle, seulement cette intuition
+ne peut être verifiée par le langage. Il semble donc que nous ayons a renoncer à
+l'idée "d'intelligence affective" comme faculté emotionnelle efficace pour
+atteindre un savoir universel. En effet - ces connaissances étant soit universelles
+mais abstraites, apauvries par le langage, soit riches et singulières mais
+relatives et inverifiables. Les passions ne nous permettraient-elles pas
+alors d'acquerir, non des emotions universelles, mais des lois de la vie
+affective, à même de nous comprendre et de comprendre "l'homme" en general ?
+Descartes dans <u><em>les passions de l'âme</em></u> propose d'etudier les passions qui Descartes dans <u><em>les passions de l'âme</em></u> propose d'etudier les passions qui
+sont "la majorité du temps, très utiles à l'homme". Les passions sont singulières
+et se combinent differement et dans des intensités diverses selon l'individu
+et la situation, cependant des lois peuvent être extraites d'une analyse des
+passions, et de cette analyse un apprentissage pratique, éthique est accessible.
+En effet, les passions ne peuvent être soumise que par d'autres passions.
+Les comprendre permet de les maitriser par la passion la plus intense de
+toute - la generosité. C'est-à-dire, l'compréhension adéquate de la volonté divine;
+de ma place dans la hierarchisation des choses et de^la détermination à agir
+conformement à cette volonté dans la mesure de mes capacités. Les passions
+mauvaises, la tristesse, la honte, la jalousie viennent donc d'une mauvaise
+compréhension de l'ordre rationnel et hierarchique du monde. comprehension de l'ordre rationnel et hierarchique du monde.
+Annie Ernaux, Auteur française dans <u><em>La honte</em></u> ; exprime ainsi son
+sentiment continu de honte lorsqu'elle etait enfant. Elle explique, par
+le regard ~d'~de sociologue les croyances et^determinations qui fondaient ce sentiment - La vision
+péjorative de "l'école laïque" ; la comparaison avec ses camarades d'ecoles,
+le langage, la violence de ses parents... - Elle estimait sa volonté
+et celle de sa famille comme ayant moins de valeur que celles des milieux . socio-economiques "superieurs", pour reprendre l'analyse ^volontariste de Descartes. Cette première
+mesestimation concluait à vouloir suivre la volonté des sujets considérés comme
+"supérieur", reprenant donc les codes sociaux des élèves de sa classe, puis de
+l'élite intellectuelle parisienne. Or le sentiment de ne pas totalement
+s'accorder avec la volonté "aimée" crée une passion de honte. L'analyse
+socio-psychologique des affects permet ainsi de décrire des lois sociales,
+cognitives qui sont generalisables, bien que l'affect ressenti par la petite
+Annie ait été singulier, complexe, absolument subjectif.
+Cette compréhension des affects n'est pas sans rappeler l'analyse faite
+par Spinoza dans <u><em>l'Ethique III</em></u> : la connaissance des causes de nos affect
+permet de devenir actif : L'étude des affect permet donc d'apprendre à permet de devenir actif? L'étude des affect permet donc d'apprendre à
+se liberer des affects tristes dans lesquels l'individu est passif.
+Comprendre les causes, c'est se reconnaitre ^comme source de l'affect. Paradoxalement
+l'etude des passions, qui'est une mise à l'ecart du vecu affectif "comprendre,
+sans rire, sans pleurer", est une assimilation des passions, et une destruction
+des passions tristes. La mise à distance nécessaire pour l'apprentissage est
+donc une destruction des passions comme ^passives. Les thérapies cognitives admettent ce
+constat en tachant de comprendre les circuits situation-émotion afin de les
+transformer en d'autres circuits d'actions. Seulement, cette étude n'est possible
+qu'en dehors de l'affect qui inibe la capacité d'analyse objective. Celui
+qui a honte dans une situation donnée ne se soucis pas des determinations
+socio-cognitives qui l'engendrent Lorsque l'emotion est là, il est déjà trop socio-cognitives qui l'engendrent Lorsque l'emotion est là, il est déjà trop
+tard, ou trop tôt pour l'analyse retrospective. Et lorsque nous avons appris de
+ces affects alors ils ne sont plus là, puisque l'opinion confuse qui les
+produisait à été rectifiée.
+Il ne semble donc pas que nous apprenions de nos affects, mais bien qu'ils
+soient au contraire le signe d'une erreur de jugement. Peut-être seraient-ils
+alors l'occasion d'une rectification? Or il semble, que ce ne soit justement leur
+mise "hors-circuit" - "Ne pas en rire, ne pas en pleurer"- qui permette une analyse
+retrospective des déterminations causales de l'affect. Nous n'apprenons donc pas de nos affects, mais
+à leur dépend.
+
+<u><em> </em></u> * Si les affects ne nous apprenent pas un patir universel humain, si
+ce n'est un repertoire d'emotions standardisées par le langage, si l'apprentissage
+se fait rationnellement rétroactivement par une analyse objective des lois
+qui determinent sociologiquement et psychologiquement les reactions affectives,
+qu'est ce que les emotions ont a dire pour adapter nos comportements
+intersubjectifs, nos decisions politiques ou nos intuitions éthiques? En effet,
+les affects semblent apporter un savoir situationnel, immédiat efficace mais
+qui ne peut faire l'objet d'un raisonnement théorique ou pratique generalisable.
+L'Empathie par exemple, très utile pour l'action directe d'entre-aide, biaise
+les decisions politiques, puisque la vidéo d'un enfant malade aura plus de
+poids que l'idée confuse et abstraite de millions d'enfants en sous-nutrition.
+La compréhension cognitive, anthropologique du phénomène par une analyse La compréhension cognitive, anthropologique du phénomène par une analyse
+de l'affect d'empathie n'aidera pas non plus à établir une loi universalisable.
+L'alternative semble alors de renoncer à apprendre des affects, nier la possibilité
+d'un savoir affectif pour s'en tenir à une vision utilitariste de l'éthique,
+mathématique de l'économie ~émotionnelle~ l'intelligence dont les savoirs ne seraient que
+subjectif, relatif, retrospectif s'opposeraient alors à la raison calculante,
+froide, objective, absolue. Or il est clair que cette solution n'est pas
+satisfaisante puisqu' « il n'est pas contraire à la raison de preferer la
+destruction du monde à une égratignure sur mon doigt » illustrait Hume
+dans son <u><em>Essai sur la nature humaine</em></u>. En effet, la raison calculante ne
+nous donne pas les normes, les valeurs, bref elle ne nous donne pas
+l'interprétation des calculs. La mathémation de l'économie par Gary Becker l'interprétation des calculs. La mathémation de l'économie par Gary Becker
+ne nous informe pas sur la nécessité d'une société égalitaire, alors que
+l'injustice, si.
+Scheler Philosophe allemand, dans <u><em>formalisme en Ethique et éthique</em></u>
+<u><em>formelle des valeurs</em></u>, propose de placer à coté de la raison calculante
+une raison affective, douée d'actes pures et d'une hierarchie axiologique universelles Pour sortir de l'universel abstrait du langage affectif,
+ainsi que de la singularité incommunicable des vécus emotionnels, le
+phénoménologue propose une étude des valeurs essentielles qui regissent
+universellement les vécus singuliers. Ainsi peu importe le contenu
+materiel de l'affect, ainsi que son porteur contingent, l'agréable sera toujours
+preferé au désagréable, produisant le plaisir et le dégout. De même, dans la
+sphère vitale, le noble (fort, vif) sera preferé au vil (faible, maladif) produisant
+l'enthousiasme ou la pitié. Dans la sphère spirituelle le juste, le vrai, le
+beau produiront de sentiment de joie esthetique, theorique ou politique.
+Ainsi les affects nous avertissent de la présence dans la chose observée
+d'une valeur plus ou moins grande. L'intuition de cette valeur quelle soit d'une valeur plus ou moins grande. L'intuition de cette valeur quelle soit
+sensible, vitale (touche à la vie dans la chose), spirituelle - valeur encore plus
+haute conduisant à un affect plus intense - ; divine - valeur perçue par
+de très rare sensibilités mystiques -, produisent toujours des affects
+corrélés. La singularité de l'affect demeure de par la contingence
+de l'objet qui a generé l'émotion et les attributs propre au sujet, même
+si l'ordre des valeurs est essentiel, universel.
+Ainsi, les affects nous apprenent l'existence d'un ordre universel, ou du
+moins qui se veut universalisable. La honte d'Annie Ernaux, ou l'indignation
+d'Antigone ne nous apprends pas une emotion universelle - puisque ce serait
+nier leurs singularités, la profondeur insondable de leurs recus, ni
+une connaissance ~necencière~ des rapports cognitifs et sociaux entre une connaissance ~necencière~ des rapports cognitifs et sociaux entre
+une situation et une reaction affective, - puisque cette connaissance n'est
+acquise qu'après une mise entre parenthèse des affects: - Mais bien
+l'existence de valeurs universelles propre à l'humanité: la justice,
+l'égalité. par exemple Les affects révèlent donc le propre de la nature humaine,
+qui est de percevoir un au delà des choses - des valeurs ethiques,
+sociales, esthetique capable de l'affecter de le mouvoir. Les affects de l'homme ne sont donc pas uniquement des reactions
+corporelles aux stimuli de l'environnement. Compris comme celà, même
+si ils sont decrits et analysés dans leur complexité et leur singularité,
+ils apparaissent stériles comme materiaux d'apprentissage puisque'ils ne
+peuvent être generalisés sans perdre leur consistance affective, ni analysés
+sans disparaitre. Les affects semblent alors devoir être compris comme les signes
+d'une intuition axiologique qui pretend à l'universalité. L'empathie, bien
+qu'inefficace à grande échelle signifie cependant l'attachement à la valeur de la dignité humaine, la colère révèle l'intuition de la l'injustice...
+La prise de décision politique ou éthique ne peuvent donc faire abstraction
+des affects sous pretexte du caractere subjectif et relatifs de ceux-ci.
+Les affects, bien que confus, nous apprenent la presence d'une valeur positive
+ou negative. Le resentiment par exemple, present dans les classes sociales
+et économiques dominées ne doit pas simplement être l'objet d'une analyse
+sociologique ou historique, sous peine de les nier, comme expression d'une
+croyance commune et potentiellement efficace dans les valeurs de justice,
+de dignité, de plaisir matérielle même etc..., pour les considérer comme le
+simple symptome contingent d'une situation particulière. La Philosophie
+doit donc jouer le rôle de révélateur de valeurs afin que les affects ne doit donc jouer le rôle de révélateur de valeurs afin que les affects ne
+soient pas simplement compris, mais donnent les orientations individuelles
+et collectives à l'action.

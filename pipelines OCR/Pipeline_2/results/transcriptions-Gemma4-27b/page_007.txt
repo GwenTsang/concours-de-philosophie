@@ -1,0 +1,35 @@
+manque peut-être, mais allons le voir, la nature du réel dans ce qu'il a de véritablement
+et objectivement imprévisible. Peut-être ne faut-il donc pas abandonner trop vite cette
+impression de chance ou de malchance quand on étudie le cours des événements.
+
+* * *
+
+Cournot a laissé sa trace dans l'histoire de la philosophie notamment par sa
+réflexion sur le hasard, qu'il réussit au cœur de la réussite des systèmes philosophiques
+déterministes auxquels il survivait lui-même. Selon lui, dans Matérialisme, Vitalisme,
+Rationalisme, Laplace se trompe en pensant que parce qu'un événement a une cause
+alors il est prévisible. Il prend l'exemple d'une tuile tombant d'un toit. Cela n'enlève pas
+ses causes : la tuile est soumise à des forces qui la maintenaient ou, au contraire, la
+mettent en mouvement. Mais que la tuile tombe sur la tête d'un passant, voilà qui est
+imprévisible, car le passant, dans son mouvement et sa position dans l'espace, n'a rien à voir
+à faire avec cette tuile qui tombe. on peut bien ici parler de hasard, et même de malchance,
+car has cas avec any deux du passant et de sa famille. Cournot définit ainsi le hasard comme
+le croisement actif des chaines causales indépendantes : des causes ont conduit le passant
+ici à un instant t, des causes ont fait chuter la tuile à l'instant t, mais c'est un hasard
+que ces deux événements se croisent au même instant. C'est donc l'indépendance des
+chaines causales qui rend possible l'imprévisibilité et donc le hasard. Mais ce n'est pas la
+seule raison de penser que, malgré l'efficacité générale du déterminisme physique, tous les
+événements ne peuvent pas être prévisibles. Poincaré en effet, dans Essai sur les probabi-
+lités, envisage déjà ce qui s'ra au cœur de la théorie du chaos pratiquée par Edward
+Lorenz, à savoir la très grande sensibilité des événements physiques aux conditions initiales.
+Poincaré pense en effet que même dans un système totalement déterministe, comme la
+roulette de Monte Carlo, le physicien ne peut pas toujours prédire ce qui va advenir. Indépen-
+dant, dans un espace lisse, vide, sans air ni aucune autre perturbation, friction, nous
+pouvons prédire le mouvement de la bille. Mais dans la réalité, le mouvement de la
+bille peut être à tout fait à fait imprédictible en raison de telles micro-causes qui sont
+mises de côté dans le calcul idéal. Dans la réalité, nous nous fondons davantage sur des
+probabilités que sur des prédictions exactes. Ainsi, celui qui joue à la roulette au casino
+peut toujours avoir la chance, ou ne pas en avoir, malgré le caractère physique détermin-
+é de système. Poincaré avait déjà aperçu dans son livre Sciences et méthode ce
+que la météorologie Edward Lorenz allait prouver des détermines plus tard, et
+surtout que la météorologie fait partie des sciences naturelles qui ne pouvait
