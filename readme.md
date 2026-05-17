@@ -34,6 +34,8 @@ Les copies qui suivent ont été transcrites mot pour mot à partir des photocop
 | Agrégation externe 2025 <br>2ème compo. | [Avoir de la chance](<copies-de-concours/dissertations_markdown_raw/Avoir_de_la_chance (Agrégation 2025 externe composition 2 - note : 9).md>) | 9 |  |  |
 | Agrégation externe 2025 <br>1ère compo. | [Le savoir est-il désirable ?](<copies-de-concours/dissertations_markdown_raw/Le savoir est-il désirable (Agrégation 2025 - note 11,5).md>) | 11,5 |  |  |
 | Agrégation externe 2022 <br>2ème composition | [L usage des principes](<copies-de-concours/Résultats OCR/Dissertations/L_usage des principes (Agrégation - note _ 13)/L_usage des principes (Agrégation - note _ 13).md>) | 13 |  |  |
+| Agrégation externe 2023 | [L égalité](<copies-de-concours/Résultats OCR/Dissertations/L_égalité (Agrégation 2023 - note _ 12)/raw/L_égalité (Agrégation 2023 - note _ 12).md>) | 12 |  |  |
+| Agrégation externe 2023 | [L égalité](<copies-de-concours/Résultats OCR/Dissertations/L_égalité (Agrégation externe 2023 - note _ 15)/Raw/L_égalité (Agrégation externe 2023 - note _ 15).md>) | 15 |  |  |
 | Prépa agrégation | [Histoire et violence](<copies-de-concours/dissertations_markdown_clean/Histoire et violence (Prépa Agrégation - note _ 18,5).md>) | 18,5 |  |  |
 | Prépa agrégation | [La servitude volontaire](<copies-de-concours/dissertations_markdown_clean/La servitude volontaire (prépa Agrégation - note _ 15).md>) | 15 |  |  |
 | Prépa agrégation | [Les limites de l'imagination](<copies-de-concours/dissertations_markdown_clean/Les limites de l'imagination (Prépa Agrégation - note _ 15).md>) | 15 |  |  |
@@ -107,8 +109,6 @@ Les copies qui suivent ont été transcrites mot pour mot à partir des photocop
 
 | Concours | Sujet et copie | Note | Moy. candidats présents | Moy. candidats admissibles |
 | :---: | :---: | :---: | :---: | :---: |
-| Agrégation 2023** | [L égalité](<copies-de-concours/Résultats OCR/Dissertations/L_égalité (Agrégation 2023 - note _ 12)/raw/L_égalité (Agrégation 2023 - note _ 12).md>) | 12 |  |  |
-| Agrégation externe 2023** | [L égalité](<copies-de-concours/Résultats OCR/Dissertations/L_égalité (Agrégation externe 2023 - note _ 15)/Raw/L_égalité (Agrégation externe 2023 - note _ 15).md>) | 15 |  |  |
 | **CAPES 2020** | [La paix est-elle le plus grand des biens](<copies-de-concours/Résultats OCR/Dissertations/La paix est-elle le plus grand des biens (CAPES 2020 - note _ 15)/raw/La paix est-elle le plus grand des biens (CAPES 2020 - note _ 15).md>) | 15 |  |  |
 |  | [Le bonheur est-il affaire de hasard et de nécessité 15.5](<copies-de-concours/Résultats OCR/Dissertations/Le bonheur est-il affaire de hasard et de nécessité 15.5 _/Le bonheur est-il affaire de hasard et de nécessité 15.5 _.md>) |  |  |  |
 | **1** | [Le bonheur est-il affaire de hasard ou de nécessité](<copies-de-concours/Résultats OCR/Dissertations/Le bonheur est-il affaire de hasard ou de nécessité _ (Agrégation interne - note _ 16)/raw/Le bonheur est-il affaire de hasard ou de nécessité _(1)(1).md>) |  |  |  |
