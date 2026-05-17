@@ -20,7 +20,7 @@ Les copies qui suivent ont été transcrites mot pour mot à partir des photocop
 | Agrégation interne 2022 <br>1ère compo. | [Le bonheur est-il affaire de hasard ou de nécessité ?](<copies-de-concours/dissertations_markdown_clean/Le bonheur est-il affaire de hasard ou de nécessité _ (Agrégation 2022 - note _ 15,5).md>) | 15,5 | 9.04 | 10.66 |
 | Agrégation interne 2022 <br>1ère compo. | [Le bonheur est-il affaire de hasard ou de nécessité ?](<copies-de-concours/dissertations_markdown_clean/Le bonheur est-il affaire de hasard ou de nécessité _(Agrégation interne 2022 - note _ 16).md>) | 16 |  |  |
 | Agrégation interne 2021 | [Peut-on vivre en paix avec son inconscient ?]() | 17 |  |  |
-| Agrégation interne 2023 | [Est-ce une chance de naître humain ?]() | 16 |  |  |
+| Agrégation interne 2023 | [Est-ce une chance de naître humain ? ?]() | 16 |  |  |
 | Agrégation externe 2024 <br>1ère compo. | [L'imagination nous instruit-elle ?](<copies-de-concours/dissertations_markdown_clean/L'imagination nous instruit-elle _ (Agrégation 2024 - note _ 14).md>) | 14 | 8.99 | 11.46 |
 | Agrégation externe 2024 <br>1ère compo. | [L'imagination nous instruit-elle ?]() | 10 |  |  |
 | Agrégation externe 2025 | [Avoir de la chance](<copies-de-concours/dissertations_markdown_raw/Avoir de la chance (Agrégation Externe 2025 -note : 8,5).md>) | 8,5 |  |  |
@@ -99,12 +99,12 @@ Les copies qui suivent ont été transcrites mot pour mot à partir des photocop
 
 | Concours | Sujet et copie | Note | Moyenne candidats présents | Moyenne candidats admissibles |
 | :---: | :---: | :---: | :---: | :---: |
-| Agrégation interne 2023** | [Est-ce une chance de naître humain](<copies-de-concours/Résultats OCR/Dissertations/Est-ce une chance de naître humain ( note 13 - température _ 0.3)/Est-ce une chance de naître humain ( note 13 - température _ 0.3).md>) | 13 |  |  |
-| Agrégation interne 2023** | [Est-ce une chance de naître humain](<copies-de-concours/Résultats OCR/Dissertations/Est-ce une chance de naître humain (note 16)_/Est-ce une chance de naître humain (note 16)_.md>) | 16 |  |  |
-| Agrégation interne 2023** | [Est-ce une chance de naître humain](<copies-de-concours/Résultats OCR/Dissertations/Est-ce une chance de naître humain _ (Agrégation interne 2023 - note _ 13).md>) | 13 |  |  |
-| Agrégation interne 2023** | [Est-ce une chance de naître humain](<copies-de-concours/Résultats OCR/Dissertations/Est-ce une chance de naître humain _ (Agrégation interne 2023 - note _ 13)/Est-ce une chance de naître humain _ (Agrégation interne 2023 - note _ 13).md>) | 13 |  |  |
-| Agrégation interne 2023** | [Est-ce une chance de naître humain](<copies-de-concours/Résultats OCR/Dissertations/Est-ce une chance de naître humain _ (Agrégation interne 2023 - note _ 13)/raw/Est-ce une chance de naître humain _ (Agrégation interne 2023 - note _ 13).md>) | 13 |  |  |
-| Agrégation interne 2023** | [Est-ce une chance de naître humain](<copies-de-concours/Résultats OCR/Dissertations/Est-ce une chance de naître humain _ (Agrégation interne 2023 - note _ 18,5)/Est-ce une chance de naître humain _ (Agrégation interne 2023 - note _ 18,5).md>) | 18,5 |  |  |
+| Agrégation interne 2023** | [Est-ce une chance de naître humain ?](<copies-de-concours/Résultats OCR/Dissertations/Est-ce une chance de naître humain ? ( note 13 - température _ 0.3)/Est-ce une chance de naître humain ? ( note 13 - température _ 0.3).md>) | 13 |  |  |
+| Agrégation interne 2023** | [Est-ce une chance de naître humain ?](<copies-de-concours/Résultats OCR/Dissertations/Est-ce une chance de naître humain ? (note 16)_/Est-ce une chance de naître humain ? (note 16)_.md>) | 16 |  |  |
+| Agrégation interne 2023** | [Est-ce une chance de naître humain ?](<copies-de-concours/Résultats OCR/Dissertations/Est-ce une chance de naître humain ? _ (Agrégation interne 2023 - note _ 13).md>) | 13 |  |  |
+| Agrégation interne 2023** | [Est-ce une chance de naître humain ?](<copies-de-concours/Résultats OCR/Dissertations/Est-ce une chance de naître humain ? _ (Agrégation interne 2023 - note _ 13)/Est-ce une chance de naître humain ? _ (Agrégation interne 2023 - note _ 13).md>) | 13 |  |  |
+| Agrégation interne 2023** | [Est-ce une chance de naître humain ?](<copies-de-concours/Résultats OCR/Dissertations/Est-ce une chance de naître humain ? _ (Agrégation interne 2023 - note _ 13)/raw/Est-ce une chance de naître humain ? _ (Agrégation interne 2023 - note _ 13).md>) | 13 |  |  |
+| Agrégation interne 2023** | [Est-ce une chance de naître humain ?](<copies-de-concours/Résultats OCR/Dissertations/Est-ce une chance de naître humain ? _ (Agrégation interne 2023 - note _ 18,5)/Est-ce une chance de naître humain ? _ (Agrégation interne 2023 - note _ 18,5).md>) | 18,5 |  |  |
 | Agrégation externe 2022** 1ère composition | [Etre sensible](<copies-de-concours/Résultats OCR/Dissertations/Etre sensible (note 13)/raw/Etre sensible (note 13).md>) | 13 |  |  |
 | Agrégation externe 2022** <br>2ème composition | [L usage des principes](<copies-de-concours/Résultats OCR/Dissertations/L_usage des principes (Agrégation - note _ 11)/raw/L_usage des principes (Agrégation - note _ 11).md>) | 11 |  |  |
 | Agrégation 2023** | [L égalité](<copies-de-concours/Résultats OCR/Dissertations/L_égalité (Agrégation 2023 - note _ 12)/raw/L_égalité (Agrégation 2023 - note _ 12).md>) | 12 |  |  |
